@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    -webkit-touch-callout: none;
+     user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     -webkit-user-select: none;
+
+     transition: .3s;
+
+
+     
+}
+
+
+
+ul, ol, li {
+    list-style: none;
+}
+
+
+a{
+    text-decoration: none;
+    outline: 0;
+    &:visited {
+        // color: $ww;
+    }
+}
+
+img{
+    border: 0;
+    pointer-events: none;
+}
