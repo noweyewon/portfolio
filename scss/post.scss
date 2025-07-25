@@ -1,0 +1,757 @@
+@import "reset";
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css');
+// font-family: 'Pretendard Variable';
+
+@import url("https://use.typekit.net/bto3byu.css");
+//font-family: "futura-pt"
+// font-family: "roc-grotesk-extrawide", 
+
+
+$wt:#f2f2f2;
+$gr: #aeaeae;
+$bl: #959595;
+$blur: rgba(247, 247, 247, 0.764);
+
+$yg:rgb(206, 255, 109);
+$sd: rgb(51, 51, 51);
+
+$wh:50px;
+$mh:35px;
+$whs:calc(100vh - $wh);
+$mhs:calc(100vh - $mh);
+
+$fontsize: 11px;
+$fontbonmun: 15px;
+$fontinfo: 9px;
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+    .header{
+        width: 100%;
+        height: $wh;
+        z-index: 2;
+
+        display: flex;
+        align-items: center;
+        justify-content: start;
+
+        .title{
+            width: 100%;
+            height: 100%;
+
+            display: flex;
+            flex-flow: row;
+            justify-content: space-between;
+            align-items: center;
+            
+            background-color:$yg;
+            padding: 0px 28px 0px 28px;
+            color: $gr;
+
+            .headtxt{
+                width: 100px;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                margin-top: -7px;
+
+            }
+            #works{
+                justify-content: start;
+                ::before{
+                    content: 'nowey.works';
+                    font: 25px/1.3 "orbit", sans-serif;
+                    
+                    letter-spacing: -4px;
+                    text-align: left;              
+                }
+            }
+            #yewon{
+              justify-content: end;
+             
+              ::before{
+                content: 'yewon.lee';
+                font: 25px/1.3 "orbit", sans-serif;
+
+                letter-spacing: -4px;
+                text-align: left;
+            }
+            }
+            .list{
+                width: 600px;
+                height: 60px;
+
+                display: flex;
+                flex-flow: row;
+                justify-content: center;
+                align-items: center;
+                
+                .listtxt{
+                    width: 60px;
+                    height: 30px;
+
+                    display: flex;
+                    justify-content: right;
+                    align-items:center;
+
+                    margin-right: 10px;
+                        h1{
+                        font: normal 12px/1.1  "orbit", sans-serif;
+                        text-align: right;
+                    }
+                }
+                .icon{
+                    width: fit-content;
+                    height: 100%;
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    // margin: 0px 0px;
+                    
+                    h1{
+                        font: normal 0px  "orbit", sans-serif;
+                        font-weight: 400;
+                        text-align: right;
+                        opacity: 0;
+                    }
+
+                    &:hover, &.on{
+                        .iconimg{
+                            opacity: 1;
+                            width: 43px;
+                        }
+                    }
+                    &.on{
+                        h1{
+                            opacity: 1;
+                            font-size: 25px;
+                        }
+                    }
+    
+                    .iconimg{
+                        display: flex;
+                        width: 40px;
+                        opacity: 0.5;
+                        img{
+                            width: 100%;
+                        }
+                    }
+
+                }
+
+            }
+        }
+    }
+
+    .main{
+        width: 100%;
+        height: $whs;
+
+        display: flex;
+        flex-flow: column;
+        justify-content: start;
+        align-items: start;
+        .mainimage{
+            z-index: 1;
+            width: 100%;
+            height: $whs;
+            
+            position: fixed;
+            bottom: 0px;
+            overflow: hidden;
+            img{
+                width: 100%;
+                height: 100vh;
+                object-fit: cover;               
+            }
+        }
+
+        .gridbox{
+            z-index: 2;
+            width: 100%;
+            height: $whs;
+
+            position: absolute;
+            bottom: 0px;
+            place-items: center;
+
+            overflow-x: hidden;
+            overflow-y: auto;
+
+            transition: 0s;
+            mask-image: none;
+            -webkit-mask-image:none;
+            
+            &::-webkit-scrollbar{
+                display: none;
+            }
+
+                .gridframe{
+                    width: 100%;
+                    height: 100%;
+                    .gridpost{
+                        z-index: 10;
+                        width: 100%;
+                        height: 100%;
+                        position: absolute;
+
+                        display: flex;
+                        align-items: end;
+
+                        left: 0px;
+                        transition: .7s;
+                        .pleft{
+                            width: 60%;
+                            height: 100%;
+                      
+                            display: flex;
+                            flex-flow: column;
+                            justify-content: start;
+                            align-items: start;
+
+                            .pinfo{
+                                width: 100%;
+                                height: fit-content;
+                                position: relative;
+                                
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: start;
+                                
+                                padding: 0px 30px 0px 0px;
+                        
+                                .pyear, .ptitle{
+                                    width: fit-content;
+                                    height: fit-content;
+                                    position: absolute;
+
+                                    z-index: 13;
+                                    h1, h2, em{
+                                        height: 15px;
+                                        z-index: 14;
+                                        position: relative;
+                                   
+                                        margin-left: 10px;
+                                        margin-top: 3px;
+                                        letter-spacing: 0px;
+                                        line-height: 2;
+                                    
+                                        color: $wt;
+                                        background-color: transparent !important;
+                                
+                                        font: lighter $fontsize  "orbit", sans-serif;
+                                        font-weight: 80;                              
+                                    }
+                                    em{
+                                        &::before, &::after{
+                                            width: 3px !important;
+                                            height: 3px !important;
+                                            margin-left: -2px;
+                                            margin-top: 5px;
+                                            background-color: $wt;
+                                            content: "";
+                                            position: absolute;
+                                            border-radius: 50%;
+                                        }
+                                    }
+                                }
+                                .ptitle{
+                                    right: 3px;
+                                    
+                                    display: flex;
+                                    flex-flow: row;
+                                    justify-content: start;
+                                    align-items: start;
+
+                                    padding: 0px 10px;
+                                }
+                                .pyear{
+                                    left: 15px;
+                                }
+                            }
+
+                            .pimg{
+                                height: fit-content;
+                                width: 100%;
+                                position: relative;
+
+                                display: flex;
+                                flex-flow: column;
+                                align-items: start;
+                                
+                                padding-top: 25px;
+                                overflow: auto;
+                                &::-webkit-scrollbar {
+                                    display: none;
+                                }
+                                .pimgrest{
+                                    width: 100%;
+                                    position: relative;
+
+                                    display: flex;
+                                    flex-flow: column;
+                                    align-items: start;
+
+                                    .pimrestbox{
+                                        width: 100%;
+                                        display: flex;
+                                        flex-flow: column;
+
+                                        .imgnumber{
+                                            position: absolute;
+                                            height: 20px;
+                                            width: 20px;
+
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+
+                                            background-color: $yg;
+                                            p{
+                                                font: 13px/1.3 "orbit", sans-serif;
+                                                color: $bl;
+                                                text-align: center;
+                                            }
+                                        }
+                                        img{
+                                            width: 100%;
+                                            object-fit: contain;
+                                        }
+                                        .video{
+                                            width: 100%;
+                                            margin-bottom: -5px;
+                                            //유튜브가 간혹 배경이 보여서 조정
+                                            
+                                            iframe {
+                                                display: block;
+                                                width: 100%;
+                                                aspect-ratio: 16/9;
+                                            }
+                                            &.short {
+                                                iframe{
+                                                aspect-ratio: 1 / 1 !important;
+                                                }
+                                            }
+                                        }
+
+                                    }
+
+
+                                }
+                        }
+
+
+                    
+                        }
+                        .pright{
+                            width: 40%;
+                            height: calc(100vh - 160px);
+
+                            display: block;
+                            bottom: 0px;
+
+                            background-color: $blur;
+                            backdrop-filter: blur(15px);
+                            -webkit-backdrop-filter: blur(15px);
+
+                            .xbtn{
+                                z-index: 11;
+                                position: absolute;
+                                width: 30px;
+                                height: 30px;
+
+                                top: -30px;
+                                right: 0px;
+
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                background-color: $yg;
+                                
+                                // i{
+                                //     color: $bl;
+                                //     font-size: 25px;
+                                // }
+                                img{
+                                    width: 95%;
+                                    object-fit: contain;
+                                }
+                                &:hover{
+                                    width: 35px;
+                                    height: 35px;
+                                    top: -35px;
+                                }
+                            }
+
+                            .wordblock{
+                                width: 100%;
+                                height: calc(100% - 80px);
+
+                                overflow-x: hidden;
+                                overflow-y: auto;
+                                padding: 15px 15px 100px 0px;
+
+                                mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 1) 20px);
+                                -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 1) 20px);
+                                mask-mode: match-source;
+                                -webkit-mask-mode: match-source;
+
+                                &::-webkit-scrollbar {
+                                    display: none;
+                                }
+                                     
+                                .kor, .eng{
+                                    width: 85%;
+                                    margin-left: 10%;
+                                    margin-top: 10px;
+                                    p{
+                                        text-align: left;
+                                        font:  $fontbonmun  "orbit", sans-serif;
+                                        color: $bl;
+                                        letter-spacing: -1px;
+
+                                        overflow-wrap: break-word;
+                                        word-break: break-word;
+                                        strong{
+                                            display: inline-block;
+                                            width: 15px;
+                                            height: 15px;
+                                            color: $bl;
+                                            text-align: center;
+            
+                                            font:  10px  "orbit", sans-serif;
+                                            background-color: $yg;
+                                            border-radius: 50%;
+                                            vertical-align: super;
+                                        }
+                                        strong.long{
+                                            width: fit-content;
+
+                                            background-color: transparent;
+                                            vertical-align: super;
+                                            text-align: left;
+                                        }
+            
+                                        em {
+                                            display: inline;
+                                            align-items: center;
+                                            font-style: normal;
+
+                                            &::before, &::after{
+                                                content: "";
+                                                width: 6px;
+                                                height: 6px;
+                                                display: inline-block;
+
+                                                background-color: $bl;
+                                                border-radius: 50%;
+                                                margin-left: -2px;
+                                                vertical-align: super;
+                                            }
+                                            &::after{
+                                                margin-left: -2px;
+                                            }
+                                            &::before{
+                                                margin-right: -2px;
+                                            }
+                                        }
+
+                                        a {
+                                            text-decoration-line: underline;    
+                                            text-decoration-style: dotted;   
+                                            text-decoration-color: $bl;     
+                                            color: $bl;
+                                            &:visited {
+                                            color: $bl;
+                                            }
+                                        }
+                                    }
+                                }
+                                .eng{
+                                    margin-left: 15%;
+                                    opacity: .4;
+                                }
+                            }
+                            
+                            .info{
+                                z-index: 11;
+                                height: 80px;
+                                width: 80%;
+                                position: absolute;
+                                bottom: 0px;
+
+                                display: flex;
+                                justify-content: space-between;
+                                flex-flow: row;
+                                padding: 2px 10%;
+                                
+                                .infobox{
+                                    width: fit-content;
+                                    height: fit-content;
+
+                                    display: flex;
+                                    justify-content: start;
+                                    padding: 5px 0px;
+
+                                    .infoicon{
+                                        width: 20px;
+
+                                        display: flex;
+                                        justify-content: start;
+                                        align-items: start;
+                                        margin-right: 5px;
+                                        img{
+                                            width: 100%;
+                                        }
+                                    }
+                                    .infoletter{
+                                        width: 90px;
+                                        h1{
+                                            text-align: left;
+                                            font:  $fontinfo "orbit", sans-serif;
+                                            color: $bl;
+                                            letter-spacing: -1px;
+                                        }
+
+                                    }
+
+                                }
+                            }
+                        }
+                    }
+                }
+                
+
+ 
+            
+
+             
+                     
+    }
+
+        
+    }
+
+
+    @media screen and (max-width: 740px){
+        overflow: hidden;
+        .header{
+            height: $mh;
+            .title{
+                padding: 0px;
+                .headtxt{
+                    padding-bottom: 4px;
+                    width: 40px;
+                }
+                #works{
+                    width: 0px;
+                    ::before{
+                        content: '';
+                        font: 20px/1.3 "orbit", sans-serif;
+                        letter-spacing: -4px;
+                    }
+                }
+                #yewon{
+                  margin-right: 10px;
+                  ::before{
+                    content: 'y.l';
+                    font: 20px/1.3 "orbit", sans-serif;
+                    letter-spacing: -4px;
+                }
+                }
+                .list{
+                    width: 330px;
+                    height: $mh;
+                    .listtxt{
+                        // display: none;
+                        margin-right: 5px;
+                        h1{
+                            font-size: 9px;
+                        }
+                    }
+                    .icon{
+                        &:hover, &.on{
+                            .iconimg{
+                                width: 32px;
+                            }
+                        }
+                        &.on{
+                            h1{
+                                font-size: 20px;
+                            }
+                        }
+                        .iconimg{
+                            width: 30px;
+                        }
+
+                    }
+                }
+            }
+           
+        }
+            .main{
+                width: 100%;
+                height: $mhs;
+                .mainimage{
+                    width: 100vw;
+                    height: $mhs;
+                    top: $mh;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .gridbox{
+                    height: $mhs;    
+                   .gridframe{
+                    .gridpost{
+                        display: flex;
+                        flex-flow: column;
+                        align-items: end;
+                        .pleft{
+                            width: 100%;
+                            height: fit-content;
+                            box-sizing: border-box;
+                            position: relative;
+
+                            .pinfo{
+                                height: 20px;
+                                align-items: center;
+                                
+                                .ptitle, .pyear{
+                                    h1, h2, em{
+                                        font: lighter $fontinfo "orbit", "san-serif";
+                                        margin-top: 0px;
+                                        margin-left: 2px;
+                                    }
+                                }
+                                .ptitle{
+                                    padding-right: 2px;
+                                    justify-content: end;
+                                    align-items: center;
+                                }
+                                .pyear{
+                                    left: 2px;
+                                }
+                            }
+                            .pimg{
+                                width: 100%;
+                                height: 100%;
+                                padding-top: 0px;
+                                background-color: black;
+                                .pimgrest{
+                                    width: 100vw;
+                                    height: fit-content;
+
+                                    display: flex;
+                                    flex-flow: row nowrap;
+                                    align-items: end;
+
+                                    overflow-x: auto;
+                                    overflow-y: hidden;
+                                    &::-webkit-scrollbar {
+                                        display: none;
+                                    }
+
+                                    scroll-snap-type: x mandatory;
+                                    scroll-behavior: smooth;
+
+                                    .pimrestbox{
+                                        position: relative;
+                                        width: 100vw;
+                                        height: fit-content;
+
+                                        flex: 0 0 100vw;
+                                        scroll-snap-align: start; // 왼쪽에 딱 맞게 스냅
+                                        align-self: center;
+
+                                        img{
+                                        width: 100vw;
+                                        height: fit-content;
+                                        }
+
+                                        .video{
+                                            width: 100%;
+                                            height: 100%;
+                                            flex: 0 0 auto; // shrink 방지
+                                            iframe{
+                                                width: 100%;
+                                                height: 100%;
+                                            }
+                                        }
+
+                                        .imgnumber{
+                                            height: 15px;
+                                            width: 15px;
+                                            p{
+                                            font-size: 10px;
+                                            }
+                                        }
+                                    }
+
+                                  }
+                            }
+                        }
+                        .pright{
+                            width: 100%;
+                            height: auto;
+                            overflow-y: auto;
+                            .xbtn{
+                                top: 0px;
+                                width: 25px;
+                                height: 25px;
+
+                                &:hover{
+                                    width: 28px;
+                                    height: 28px;
+                                    top: 0px;
+                                }
+                            }
+                            .wordblock{
+                                padding-bottom: 30px;
+                                height: calc(100% - 50px);
+                                
+                                .kor, .eng{
+                                    p{
+                                        font-size: 10px;
+                                    }
+                                }
+                               
+                            }
+
+                            .info{
+                                height: fit-content;
+                                padding: 10px 40px;
+                                bottom: 0px;
+                                .infobox{
+                                    .infoicon{
+                                        width: 15px;
+                                    }
+                                    .infoletter{
+                                        h1{
+                                            font-size: 7px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+                   }
+
+
+                }
+            }
+    
+    
+    }
+  
+}
+
+
+
+

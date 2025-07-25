@@ -1,0 +1,35 @@
+[
+      {
+    "titleKor": "<em>When A Fire Starts To Burn</em> 모션 타이포",
+    "titleEng": "Motion Typography",
+    "year": "2022",
+    "pleft":[
+      "<div class='pimrestbox'><img src='img/post/waf/0.png' loading='lazy'><div class='imgnumber'><p>1</p></div></div>",
+
+      "<div class='pimrestbox'><div class='imgnumber'><p>2</p></div><div class='video'><iframe src='https://www.youtube.com/embed/YtRKaJd_UUk?enablejsapi=1&autoplay=1&loop=1&playlist=YtRKaJd_UUk' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen loading='lazy'></iframe></div></div>",
+
+      "<div class='pimrestbox'><img src='img/post/waf/1.png' loading='lazy'><div class='imgnumber'><p>3</p></div></div>",
+      "<div class='pimrestbox'><img src='img/post/waf/2.png' loading='lazy'><div class='imgnumber'><p>4</p></div></div>",
+      "<div class='pimrestbox'><img src='img/post/waf/3.png' loading='lazy'><div class='imgnumber'><p>5</p></div></div>",
+      "<div class='pimrestbox'><img src='img/post/waf/4.png' loading='lazy'><div class='imgnumber'><p>6</p></div></div>",
+      "<div class='pimrestbox'><img src='img/post/waf/5.png' loading='lazy'><div class='imgnumber'><p>7</p></div></div>"
+    ],
+    "backgroundColor": "#666666",
+    "description": [
+      "<div class='kor'><p>Disclosure의 노래 <em>When A Fire Starts To Burn</em>을 바탕으로 개인적으로 작업한 모션 타이포그래피입니다.</p></div>",
+      "<div class='eng'><p>A motion typography project based on Disclosure’s track <em>When A Fire Starts To Burn</em>, created as a personal project.</p></div>",
+      "<div class='kor'><p>곡의 분위기에 맞춰 <em>타오름</em>의 강렬한과 키치함이 느껴지는 그래픽 방향성을 설정한 후, 실사 영상을 제외한 모든 그래픽 소스를 제작했습니다. 특히 가사 중 <em>Fire</em>와 <em>She</em>를 나타내는 이미지를 영상 안에 지속적으로 표현했습니다. </p></div>",
+      "<div class='eng'><p>Inspired by the energy of the song, the visual direction was set to evoke a sense of intense <em>ignition</em> and playful kitsch. All graphic elements—excluding live-action footage—were self-produced. Throughout the video, recurring imagery was used to visually emphasize key lyrics such as <em>Fire</em> and <em>She</em>.</p></div>",
+      "<div class='kor'><p>사용된 소스를 바탕으로 영상의 내용을 아우르는 포스터<strong>1</strong> 역시 제작했습니다.</p></div>",
+      "<div class='eng'><p>A poster<strong>1</strong> encapsulating the overall narrative and mood of the video was also designed using the visual assets from the project.</p></div>",
+      "<br><div class='kor'><p><strong class=long>1920x1080px, 0:00:31</strong></p></div>"
+    ],
+    "info": [
+      {
+        "output": "Graphic Designs. Motion Graphics.",
+        "tool": "Illustrator. Photoshop. AfterEffects.",
+        "time": "2 months<br>2022.02 - 2022.03"
+      }
+    ]
+  }
+]

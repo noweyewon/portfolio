@@ -1,0 +1,30 @@
+[
+    {
+        "titleKor": "<em>추락의 해부</em> 모션 포스터",
+        "titleEng": "<em>Anatomy Of A Fall</em> Motion Poster",
+        "year": "2024",
+        "pleft":[
+        
+          "<div class='pimrestbox'><img src='img/post/aof/1.jpg' loading='lazy'><div class='imgnumber'><p>1</p></div></div>",
+          "<div class='pimrestbox'><div class='imgnumber'><p>2</p></div><div class='video short'><iframe src='https://youtube.com/embed/1DnFkJckRRc?enablejsapi=1' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen loading='lazy'></iframe></div></div>",
+          "<div class='pimrestbox'><img src='img/post/aof/2.jpg' loading='lazy'><div class='imgnumber'><p>3</p></div></div>"
+        ],
+        "backgroundColor": "#666666",
+        "description": [
+          "<div class='kor'><p>개인 작업으로 진행한 영화 <em>추락의 해부</em>의 모션 포스터입니다.</p></div>",
+          "<div class='eng'><p>A motion poster for the film <em>Anatomy of a Fall</em>, created as a personal project.</p></div>",
+          "<div class='kor'><p>여러 해석이 중첩된 상황을 그리는 영화 내용에 맞추어, 토글 버튼을 통해 사건의 두 가지 해석을 오가는 모션을 작업하였고, 영화 속 주요한 배경이자 사건이 일어난 장소인 <em>집</em>을 주요하게 배치하였습니다.</p></div>",
+          "<div class='eng'><p>To reflect the film’s layered and overlapping interpretations, the motion design incorporates a toggle button that switches between two different perspectives of the incident. The <em>house</em>, a key setting and the site of the event in the film, is prominently featured in the composition. </p></div>",
+          "<div class='kor'><p>사건 기록지 등을 연상시키는 요소<strong>3</strong>를 흑백의 그래픽으로 제작해 함께 배치하였습니다.</p></div>",
+          "<div class='eng'><p>Additionally, elements reminiscent of case files and investigation records<strong>3</strong> are designed using monochromatic graphics and thoughtfully integrated into the layout.</p></div>",
+          "<br><div class='kor'><p><strong class=long>1796 x 1796px, 0:00:15</strong></p></div>"
+        ],
+        "info": [
+          {
+            "output": "Graphic Designs. Motion Graphics.",
+            "tool": "Illustrator. Photoshop. AfterEffects.",
+            "time": "3 weeks<br>2024.03"
+          }
+        ]
+      }
+]

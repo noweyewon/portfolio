@@ -1,0 +1,36 @@
+[
+      {
+    "titleKor": "2024 <em>푸른 용의 해</em> 연하장",
+    "titleEng": "New Year's Greetings 2024",
+    "year": "2023",
+    "pleft":[
+  
+      "<div class='pimrestbox'><img src='img/post/greet24/00.jpg' loading='lazy'><div class='imgnumber'><p>1</p></div></div>",
+      "<div class='pimrestbox'><img src='img/post/greet24/4.jpg' loading='lazy'><div class='imgnumber'><p>2</p></div></div>",
+      "<div class='pimrestbox'><img src='img/post/greet24/0.gif' loading='lazy'><div class='imgnumber'><p>3</p></div></div>",
+      "<div class='pimrestbox'><img src='img/post/greet24/1.png' loading='lazy'><div class='imgnumber'><p>4</p></div></div>",
+
+      "<div class='pimrestbox'><img src='img/post/greet24/2.png' loading='lazy'><div class='imgnumber'><p>5</p></div></div>"
+    ],
+    "backgroundColor": "#8198b9",
+    "description": [
+      
+      "<div class='kor'><p>2024년 <em>푸른 용의 해</em>를 위해 제작한 연하장입니다.</p></div>",
+      "<div class='eng'><p>New Year’s greeting card for 2024, <em>the Year of the Blue Dragon</em>.</p></div>",
+      "<div class='kor'><p>매년 말 다음 해를 상징하는 십이지를 주제로 연하장을 작업하면서, 한 해의 마무리와 시작에 어울리는 요소를 넣어 디자인했습니다. 휴대성 있는 작은 판형<strong class=long>91mm x 55mm</strong>으로 만들어 연하장을 지닌 사람에게 항상 길운이 함께하길 바라는 마음을 담았고, 매년 같은 비율로 작업해 수집 요소를 넣었습니다.</p></div>",
+      "<div class='eng'><p>At the end of each year, I design cards inspired by the zodiac animal of the upcoming year, incorporating elements that reflect both closure and renewal. The cards are created in a compact, portable format, carrying a wish for good fortune to accompany the recipient throughout the year. I also maintain a consistent size and proportion annually, making each year's card a collectible item.</p></div>",
+      "<div class='kor'><p><em>한 해 동안 있었던 일은 모두 씻어내고, 한 결 가벼운 마음으로 맞이하는 새해</em>를 주제로, 고전적인 비누 패키지를 모티브로 한 디자인을 전개했습니다. 푸른 용을 상징하는 파랑과 비누를 연상시키는 분홍을 주요한 색상으로 활용했습니다. 각각 <em>축</em>, <em>갑</em>, <em>진</em>, <em>연</em> 의 이름을 붙인 세 종의 카드와 한 종의 웹 페이지용 연하장을 제작했습니다.</p></div>",
+      "<div class='eng'><p>Based on the theme <em>washing away the past year and welcoming the new one with a lighter heart,</em> this project explores a design inspired by vintage soap packaging. The primary color palette combines deep blue—symbolizing the Blue Dragon of the year—and soft pink, reminiscent of soap. The project includes three card designs titled <em>Chuk<strong class=long>celebrate</strong></em>, <em>Gahb<strong class=long>Blue</strong></em>, <em>Jin<strong class=long>dragon</strong></em>, and <em>Yeon<strong class=long>Year</strong></em>, one web-based New Year’s greeting card. </p></div>",
+      "<div class='kor'><p>사용자가 직접 디자인을 골라 한 해의 다짐을 적은 후 다운로드 할 수 있 <a href='https://girinlove1.github.io/greetings/' target=blank>웹 사이트</a><strong>3</strong> 역시 제작하였습니다.</p></div>",
+      "<div class='eng'><p>I also created a <a href='https://girinlove1.github.io/greetings/' target=blank>website</a><strong>3</strong> where users can select a design, write their resolutions for the year, and download a personalized card.</p></div>",
+      "<br><div class='kor'><p><strong class=long>91mmx55mm, 2p, double-sided</strong></p></div>"
+    ],
+    "info": [
+      {
+        "output": "Graphic Designs. Web Designs",
+        "tool": "Illustrator. Photoshop. Html/CSS/JS",
+        "time": "3 months<br>2023.10 - 2023.12"
+      }
+    ]
+  }
+]

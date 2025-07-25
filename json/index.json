@@ -1,0 +1,204 @@
+[
+    {
+        "id": "diwf",
+        "titleKor": "<em>대전국제와인페스티벌</em> 리브랜딩",
+        "titleEng": "<em>DIWF</em> Rebranding Project",
+        "year": "2021",
+        "thumb": "img/post/diwf/0.jpg",
+        "thumbClass": "",
+        "backgroundColor": "",
+        "categories": [
+          { "emoji": "img/emoji/2.png", "category": "motion graphics" },
+          { "emoji": "img/emoji/3.png", "category": "branding designs" }
+    
+        ]
+      },
+      {
+        "id": "ssh2401",
+        "titleKor": "소:소한 2024 봄 playlist",
+        "titleEng": "<em>So:Sohan</em> 2024 Spring Playlist",
+        "year": "2024",
+        "thumb": "img/post/ssh2401/0.jpg",
+        "thumbClass": "",
+        "backgroundColor": "",
+        "categories": [
+          { "emoji": "img/emoji/1.png", "category": "graphic designs" },
+          { "emoji": "img/emoji/2.png", "category": "motion graphics" }
+        ]
+      },
+      {
+        "id":"greet25",
+        "titleKor": "2025 <em>푸른 뱀의 해</em> 연하장",
+        "titleEng": "New Year's Greetings 2025",
+        "year": "2024",
+        "thumb": "img/post/greet25/2.png",
+        "thumbClass": "",
+        "backgroundColor": "",
+        "categories": [
+          { "emoji": "img/emoji/1.png", "category": "graphic designs" },
+          { "emoji": "img/emoji/2.png", "category": "motion graphics" },
+          { "emoji": "img/emoji/5.png", "category": "web designs" }
+    
+        ]
+      },
+      {
+        "id":"ssh2501",
+        "titleKor": "소:소한 2025 봄·여름 playlist",
+        "titleEng": "<em>So:Sohan</em> 2025 Spring·Summer Playlist",
+        "year": "2025",
+        "thumb": "img/post/ssh2501/0.png",
+        "thumbClass": "",
+        "backgroundColor": "",
+        "categories": [
+          { "emoji": "img/emoji/1.png", "category": "graphic designs" },
+          { "emoji": "img/emoji/2.png", "category": "motion graphics" }
+        ]
+      },
+      {
+        "id":"aof",
+        "titleKor": "<em>추락의 해부</em> 모션 포스터",
+        "titleEng": "<em>Anatomy Of A Fall</em> Motion Poster",
+        "year": "2024",
+        "thumb": "img/post/aof/1.jpg",
+        "thumbClass": "",
+        "backgroundColor": "",
+        "categories": [
+        { "emoji": "img/emoji/2.png", "category": "motion graphics" }
+        ]
+      },
+      {
+        "id":"ts",
+        "titleKor": "Translated",
+        "titleEng": "Scores",
+        "year": "2022",
+        "thumb": "img/post/ts/b.jpg",
+        "thumbClass": "",
+        "backgroundColor": "#ffffff",
+        "categories": [
+          { "emoji": "img/emoji/1.png", "category": "graphic designs" },
+          { "emoji": "img/emoji/2.png", "category": "motion graphics" },
+          { "emoji": "img/emoji/4.png", "category": "editorial designs" }
+        ]
+      },
+      {
+        "id":"greet24",
+        "titleKor": "2024 <em>푸른 용의 해</em> 연하장",
+        "titleEng": "New Year's Greetings 2024",
+        "year": "2023",
+        "thumb": "img/post/greet24/3.jpg",
+        "thumbClass": "",
+        "backgroundColor": "#000000",
+        "categories": [
+          { "emoji": "img/emoji/1.png", "category": "graphic designs" },
+          { "emoji": "img/emoji/5.png", "category": "web designs" }
+        ]
+      },
+      {
+        "id":"gradleaf",
+        "titleKor": "<em>00MHz</em> 리플렛",
+        "titleEng": "<em>00MHz</em> Leaflet",
+        "year": "2022",
+        "thumb": "img/post/gradleaf/6.jpg",
+        "thumbClass": "",
+        "backgroundColor": "",
+        "categories": [
+          { "emoji": "img/emoji/4.png", "category": "editorial designs" }
+    
+        ]
+      },
+      {
+        "id":"greetseah",
+        "titleKor": "세아그룹 2023년 계묘년 연하장",
+        "titleEng": "Seah Group 2023 New Year’s Greeting",
+        "year": "2022",
+        "thumb": "img/post/greetseah/0.jpg",
+        "thumbClass": "",
+        "backgroundColor": "",
+        "categories": [
+          { "emoji": "img/emoji/1.png", "category": "graphic designs" },
+          { "emoji": "img/emoji/2.png", "category": "motion graphics" }
+    
+        ]
+      },
+      {
+        "id":"waf",
+        "titleKor": "<em>When A Fire Starts To Burn</em> 모션 타이포",
+        "titleEng": "Motion Typography",
+        "year": "2022",
+        "backgroundColor": "",
+        "categories": [
+        { "emoji": "img/emoji/2.png", "category": "motion graphics" }
+        ],
+        "thumb": "img/post/waf/1.png",
+        "thumbClass": ""
+      },
+      {
+        "id":"greet23",
+        "titleKor": "2023 <em>검은 토끼의 해</em> 연하장",
+        "titleEng": "New Year's Greetings 2023",
+        "year": "2022",
+        "thumb": "img/post/greet23/0.png",
+        "thumbClass": "",
+        "backgroundColor": "#000000",
+        "categories": [
+          { "emoji": "img/emoji/1.png", "category": "graphic designs" }
+        ]
+      },
+      {
+        "id":"tsmg",
+        "titleKor": "<em>The Show Moust Go On</em> 아이덴티티&홍보물",
+        "titleEng": "Identity & Collaterals",
+        "year": "2020",
+        "thumb": "img/post/tsmg/0.jpg",
+        "thumbClass": "",
+        "backgroundColor": "#000000",
+        "categories": [
+          { "emoji": "img/emoji/1.png", "category": "graphic designs" }
+        ]
+      },
+      {
+        "id":"hwisi",
+        "titleKor": "휘어진 시간",
+        "titleEng": "Croooooked Time",
+        "year": "2021",
+        "thumb": "img/post/hwisi/0.png",
+        "thumbClass": "on",
+        "backgroundColor": "#0000ff",
+        "categories": [
+          { "emoji": "img/emoji/1.png", "category": "graphic designs" },
+          { "emoji": "img/emoji/2.png", "category": "motion graphics" },
+          { "emoji": "img/emoji/4.png", "category": "editorial designs" }
+    
+        ]
+      },
+      {
+        "id":"woongza",
+        "titleKor": "<em>웅자</em> 리브랜딩",
+        "titleEng": "<em>Woongza</em> Rebranding Project",
+        "year": "2020",
+        "thumb": "img/post/woongza/0.png",
+        "thumbClass": "",
+        "categories": [
+          { "emoji": "img/emoji/2.png", "category": "motion graphics" },
+          { "emoji": "img/emoji/3.png", "category": "branding designs" }
+    
+        ],
+        "backgroundColor": ""
+
+      },
+      {
+        "id":"yomyon",
+        "titleKor": "독립출판 간행물 <em>여명</em>",
+        "titleEng": "Independent Publication Zine <em>Yeomyeong</em>",
+        "year": "2021",
+        "thumb": "img/post/yomyon/00.png",
+        "thumbClass": "on",
+        "backgroundColor": "#000000",
+        "categories": [
+          { "emoji": "img/emoji/1.png", "category": "graphic designs" },
+          { "emoji": "img/emoji/4.png", "category": "editorial designs" }
+    
+        ]
+      }
+
+]

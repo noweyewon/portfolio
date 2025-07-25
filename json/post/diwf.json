@@ -1,0 +1,38 @@
+[ 
+{
+    "titleKor": "<em>대전국제와인페스티벌</em> 리브랜딩",
+    "titleEng": "<em>DIWF</em> Rebranding Project",
+    "year": "2021",
+    "pleft":[
+      "<div class='pimrestbox'><img src='img/post/diwf/0.jpg' loading='lazy'><div class='imgnumber'><p>1</p></div></div>",
+
+      "<div class='pimrestbox'><div class='imgnumber'><p>2</p></div><div class='video'><iframe src='https://www.youtube.com/embed/utB6on6_Gvk?enablejsapi=1&autoplay=1&loop=1&playlist=utB6on6_Gvk' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen loading='lazy'></iframe></div></div>",
+
+      "<div class='pimrestbox'><img src='img/post/diwf/1.png' loading='lazy'><div class='imgnumber'><p>3</p></div></div>",
+      "<div class='pimrestbox'><img src='img/post/diwf/2.png' loading='lazy'><div class='imgnumber'><p>4</p></div></div>",
+      "<div class='pimrestbox'><img src='img/post/diwf/3.jpg' loading='lazy'><div class='imgnumber'><p>5</p></div></div>",
+      "<div class='pimrestbox'><img src='img/post/diwf/4.jpg' loading='lazy'><div class='imgnumber'><p>6</p></div></div>",
+      "<div class='pimrestbox'><img src='img/post/diwf/5.jpg' loading='lazy'><div class='imgnumber'><p>7</p></div></div>",
+      "<div class='pimrestbox'><img src='img/post/diwf/6.jpg' loading='lazy'><div class='imgnumber'><p>8</p></div></div>",
+      "<div class='pimrestbox'><img src='img/post/diwf/7.jpg' loading='lazy'><div class='imgnumber'><p>9</p></div></div>",
+      "<div class='pimrestbox'><img src='img/post/diwf/8.jpg' loading='lazy'><div class='imgnumber'><p>10</p></div></div>"
+     
+    ],
+    "backgroundColor": "#ff0000",
+    "description": [
+      "<div class='kor'><p>대전시 주최로 2012년부터 진행되어 온 행사인 <em><a href='https://www.djwinefair.com/' target=blank>대전국제와인페스티벌</a></em>의 리브랜딩 방안을 구상해 본 개인 프로젝트입니다.</p></div>",
+      "<div class='eng'><p>This is a self-initiated branding project for the <em><a href='https://www.djwinefair.com/' target=blank>Daejeon International Wine Festival</a></em>, a local event hosted by the city of Daejeon since 2012.</p></div>",
+      "<div class='kor'><p>대전국제와인페스티벌은 지역 축제임에도 불구하고 축제 브랜딩에서 지역성 및 오락성이 부족하다는 점이 문제점으로 인식되어 왔습니다. 기존  행사의 전문성은 유지하되 일반 참여자의 흥미와 지역 특성을 포괄할 수 있는 방향의 리브랜딩을 계획하였고, 대전의 지역성을 표현할 수 있는 키워드와 <em>바쁜 일상을 떠나 여유를 즐길 수 있는 와인 축제</em>라는 방향성을 설정했습니다.<strong>4</strong></p></div>",
+      "<div class='eng'><p>Despite its long history, the festival’s previous branding lacked a strong sense of locality and entertainment, which limited its appeal as a regional cultural event. The rebranding direction aimed to retain the festival’s professional tone while broadening its accessibility to general participants and highlighting the unique characteristics of Daejeon. By defining key regional attributes of Daejeon, I developed a conceptual direction centered on <em>a wine festival that offers a relaxing escape from the busyness of daily life.</em><strong>4</strong></p></div>",
+      "<div class='kor'><p>기본형 로고는 대전의 분지 지형에서 따뜻함이 퍼져나가는 이미지를 형상화하여 제작하였습니다. 페스티벌의 기존 프로그램과 새롭게 기획한 콘텐츠에 맞춰, 축제의 정체성을 유연하게 표현할 수 있는 플렉서블 아이덴티티 세트도 함께 구성했습니다.<strong>1</strong> 메인 로고와 그래픽 요소를 공유하는 플렉서블 아이덴티티는 <em>대전에서 퍼져나가는 따스함과 즐거움의 이미지</em>를 강조하며, 로고 모션 그래픽<strong>2</strong>을 제작하여 이를 표현할 수 있도록 하였습니다. 따뜻함을 연상시키는 그라데이션 컬러를 그래픽 모티프 전반에 적용하고, 이를 바탕으로 페스티벌 현장에 활용될 수 있는 다양한 어플리케이션<strong>5</strong><strong>~</strong><strong>10</strong>을 전개했습니다.</p></div>",
+      "<div class='eng'><p>The primary logo visualizes the warm energy radiating from Daejeon’s basin-like topography. To support various festival programs—both existing and newly proposed—a flexible identity system was designed that adapts seamlessly while maintaining graphic consistency with the main logo. <strong>1</strong> This system includes a set of dynamic graphic variations and a motion logo<strong>2</strong> that embodies the core concept of warmth and joy spreading from Daejeon. A warm-toned gradient serves as a key visual motif across the identity system, and was applied throughout the brand's collateral and spatial applications<strong>5</strong><strong>~</strong><strong>10</strong>, enhancing the overall experiential cohesion of the festival environment.</p></div>"
+    ],
+    "info": [
+      {
+        "output": "Logo Design. Brand Manual. Applications. Motion Graphics",
+        "tool": "Illustrator. Photoshop. AfterEffects.",
+        "time": "3 months<br>2021.09 - 2021.12"
+      }
+    ]
+}
+]

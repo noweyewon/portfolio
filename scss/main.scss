@@ -43,25 +43,23 @@ body{
         .title{
             width: 100%;
             height: 100%;
-            background-color:$yg;
+
             display: flex;
             flex-flow: row;
             justify-content: space-between;
             align-items: center;
+            
+            background-color:$yg;
             padding: 0px 28px 0px 28px;
+            color: $gr;
+
             .headtxt{
                 width: 100px;
                 height: 100%;
                 display: flex;
-               align-items: center;
-               
-                h1{
-                    font: 25px/1.3 "orbit", sans-serif;
-                    margin-top: -7px;
-                    letter-spacing: -4px;
-                    text-align: left;
-                    color: $gr;
-                }
+                align-items: center;
+                margin-top: -7px;
+
             }
             #works{
                 justify-content: start;
@@ -70,73 +68,69 @@ body{
                     font: 25px/1.3 "orbit", sans-serif;
                     
                     letter-spacing: -4px;
-                    text-align: left;
-                    color: $gr;
+                    text-align: left;              
                 }
             }
             #yewon{
               justify-content: end;
-              color: $gr;
+             
               ::before{
                 content: 'yewon.lee';
                 font: 25px/1.3 "orbit", sans-serif;
-                margin-top: -7px;
+
                 letter-spacing: -4px;
                 text-align: left;
-                color: $gr;
             }
             }
             .list{
                 width: 600px;
                 height: 60px;
-                // background-color: yellow;
+
                 display: flex;
                 flex-flow: row;
                 justify-content: center;
                 align-items: center;
+                
                 .listtxt{
+                    width: 60px;
+                    height: 30px;
+
                     display: flex;
                     justify-content: right;
                     align-items:center;
-                    width: 60px;
-                    height: 30px;
+
                     margin-right: 10px;
-                    h1{
-                    font: normal 12px/1.1  "orbit", sans-serif;
-                    text-align: right;
-                    color: $gr;
+                        h1{
+                        font: normal 12px/1.1  "orbit", sans-serif;
+                        text-align: right;
+                    }
                 }
-            }
                 .icon{
                     width: fit-content;
                     height: 100%;
+
                     display: flex;
-                    // flex-flow: column;
                     align-items: center;
                     justify-content: center;
-                    margin: 0px 0px;
+                    // margin: 0px 0px;
+                    
                     h1{
                         font: normal 0px  "orbit", sans-serif;
                         font-weight: 400;
                         text-align: right;
-                        color: $gr;
                         opacity: 0;
                     }
-                    &:hover{
+
+                    &:hover, &.on{
                         .iconimg{
                             opacity: 1;
                             width: 43px;
                         }
                     }
-
                     &.on{
                         h1{
                             opacity: 1;
                             font-size: 25px;
-                        }
-                        .iconimg{
-                            opacity: 1;
-                            width: 43px;
                         }
                     }
     
@@ -157,36 +151,35 @@ body{
 
     .main{
         width: 100%;
-        height:$whs;
+        height: $whs;
+
         display: flex;
         flex-flow: column;
         justify-content: start;
         align-items: start;
-
         .mainimage{
-            position: fixed;
             z-index: 1;
-            bottom: 0px;
             width: 100%;
             height: $whs;
+            
+            position: fixed;
+            bottom: 0px;
             overflow: hidden;
             img{
                 width: 100%;
                 height: 100vh;
-                object-fit: cover;
-                
+                object-fit: cover;               
             }
         }
         .postbttns{
             z-index: 1;
             width: 100%;
             height: $whs;
+            position: fixed;
 
             display: flex;
             justify-content: center;
             align-items: center;
-            position: fixed;
-            transition: 0s;
 
             p{
                 font: 30vw/1.3 "orbit", sans-serif;
@@ -197,745 +190,236 @@ body{
             }
         }
 
-        
         .gridbox{
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            // gap: 20px;
-            // padding: 30px;
-            overflow-x: hidden;
-            overflow-y: auto;
-            height: calc(100vh - 200px);
-            // background-color: red;
             z-index: 2;
             width: 100%;
+            height: calc(100vh - 200px);
+
             position: absolute;
             bottom: 0px;
             place-items: center;
+
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+
+            overflow-x: hidden;
+            overflow-y: auto;
+
             mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 1) 20px);
             -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 1) 20px);
             mask-mode: match-source;
             -webkit-mask-mode: match-source;
-
             &::-webkit-scrollbar{
                 display: none;
             }
 
-            &.click{
-                width: 100%;
-                height: $whs;
-                bottom: 0px;
-
-                transition: 0s;
-                mask-image: none;
-                -webkit-mask-image:none;
-                .gridframe.click{
-                    padding: 0px;
-                    transform: translate3d(0px, 0px, 0px);
-                    width: 100%;
-                    height: 100%;
-
-                    margin-top: 0px;
-                    :nth-of-type(even){
-                        top: 0px;
-                    }
-
-                    .gridpost.off{
-                        width: 0%;
-                        height: 0%;
-                    }
-
-                    .gridpost.click{
-                        opacity: 1;
-                        position: absolute;
-                        left: 0px;
-
-                    margin-left: 0px;
-
-            transition: .7s;
-
-                        margin-top: 0px;
-                        z-index: 10;
-                        width: 100%;
-                        height: 100%;
-
-                        &:hover{
-                            margin-top: 0px;
-                        }
-                        .pleft{
-                        width: 60%;
-                        height: 100%;
-                        display: flex;
-                        flex-flow: column;
-                        
-                        .pinfo{
-                            width: 100%;
-                            height: fit-content;
-                            // height: 10px;
-                
-                                display: flex;
-                                justify-content: space-between;
-                            
-                                // flex-flow: row;
-                                background-color: transparent;
-                                position: relative;
-                                // background-color: pink;
-                            z-index: 12;
-                            padding-top: 0px;
-                            
-                            h1, em{
-                                font-size: 15px;
-                                line-height: 1.2;
-                                margin-left: 10px;
-                                height: 15px;
-                                background-color: transparent !important;
-                                margin-top: 1px;
-                               
-                                color: $wt;
-                                outline: none;
-
-                                
-                            }
-                            em{
-
-                                &::before{
-                                    width: 5px;
-                                    height: 5px;
-                                    margin-right: 2px;
-                                    background-color: $wt;
-                                    content: "";
-                                    position: absolute;
-                                    border-radius: 50%;
-
-                                }
-
-                                &::after{
-
-                                    background-color: $wt;
-                                }
-                            }
-
-                            h2{
-                                background-color: transparent;
-
-                                outline: none;
-                            }
-                            
-
-                    
-                            .ptitle{
-                                border: none;
-                                display: flex;
-                                flex-flow: row;
-                                position: relative;
-                                height: fit-content;
-                                padding: 0px 10px;
-    
-                                right: 0px;
-                                z-index: 13;
-                                background-color: transparent;
-                                position: absolute;
-                                
-
-                                h2{
-                                    color: $wt;
-                                    margin-top: 1px;
-                                }
-                    
-                        
-                            }
-                            .pyear{
-                                // display: flex;
-                                position: absolute;
-                                height: fit-content;
-                                left: 10px;
-                                width: fit-content;
-                                z-index: 13;
-                                // flex-flow: row;
-                                // align-items:start;
-                            
-                                background-color: transparent;
-                                box-shadow: none;
-                            }
-
-                    
-
-                      
-                        }
-
-                        .pimg{
-                            position: relative;
-                        padding-top: 25px;
-                            height: fit-content;
-                            width: 100%;
-                            display: flex;
-                            flex-flow: column;
-                            align-items: start;
-                            overflow: auto;
-                            &::-webkit-scrollbar {
-                                display: none;  /* Chrome, Safari, Opera */
-                            }
-                        
-                        .pthumb{
-                            display: none;
-                            img{
-                        
-                                display: none;
-                            }
-                        }
-                        .pimgrest{
-                            display: block;
-                            width: 100%;
-                            display: flex;
-                            flex-flow: column;
-                            align-items: start;
-                            position: relative;
-                            .pimrestbox{
-                                width: 100%;
-                                display: flex;
-                                flex-flow: column;
-                                .imgnumber{
-                                    position: absolute;
-                                    height: 20px;
-                                    width: 20px;
-                                    // margin-top: 100px;
-                                    background-color: $yg;
-                                    display: flex;
-                                    justify-content: center;
-                                    align-items: center;
-                                    // top: none;
-
-
-                                    p{
-                                        font: 13px/1.3 "orbit", sans-serif;
-                
-                                        transition: 0s;
-                                        color: $bl;
-                                        // margin-top: -7px;
-                                        // letter-spacing: -4px;
-                                        text-align: center;
-                                    }
-                                    
-
-                                }
-                                img{
-                                    width: 100%;
-                                    
-                                    top: 0%;
-                                    object-fit: contain;
-                                    // margin-bottom: 5px;
-
-
-        
-                                }
-                                .video{
-                                    width: 100%;
-                                    left: 0px;
-                                    margin-bottom: -5px;
-                                    display: block;
-                                    iframe {
-                                        display: block;
-                                        width: 100%;
-                                        aspect-ratio: 16/9;
-                                    }
-
-                                    &.short {
-                                        iframe{
-                                        width: 100%;
-                                        aspect-ratio: 1 / 1 !important;
-                                        display: block; 
-                                    }
-                                      }
-                                }
-
-                            }
-
-
-                        }
-                    }
-
-
-                    
-                        }
-                        .pright{
-                            display: block;
-                            width: 40%;
-                            height: calc(100vh - 160px);
-                            bottom: 0px;
-                            background-color: $blur;
-                            backdrop-filter: blur(15px);
-                            -webkit-backdrop-filter: blur(15px);
-
-                            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* 부드러운 그림자 */
-
-                            .xbtn{
-                                z-index: 11;
-                                position: absolute;
-                                width: 30px;
-                                height: 30px;
-                                top: -30px;
-                                right: 0px;
-                                background-color: $yg;
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                                i{
-                                    color: $yg;
-                                    font-size: 25px;
-                                }
-                                img{
-                                    width: 95%;
-                                    object-fit: contain;
-                                }
-                                &:hover{
-                                    width: 35px;
-                                    height: 35px;
-                                    top: -35px;
-                                }
-                            }
-
-                            .wordblock{
-                                overflow-x: hidden;
-                                width: 100%;
-                                height: calc(100% - 80px);
-                                overflow-y: auto;
-                                padding: 15px 15px 100px 0px;
-
-                                // border: 1px solid darkseagreen;
-
-                                mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 1) 20px);
-                                -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 1) 20px);
-                                mask-mode: match-source;
-                                -webkit-mask-mode: match-source;
-
-                                &::-webkit-scrollbar {
-                                    display: none;
-                                }
-                                
-                    
-                        
-                                .kor, .eng{
-                                    margin-left: 10%;
-                                    width: 85%;
-                                    text-align: left;
-                                    margin-top: 10px;
-                                    p{
-                                        text-align: left;
-                                        font:  $fontbonmun  "orbit", sans-serif;
-                                        color: $bl;
-                                        letter-spacing: -1px;
-                                        // white-space: normal;
-                                        overflow-wrap: break-word;
-                                        word-break: break-word;
-                                        strong{
-                                            display: inline-block;
-                                            width: 15px;
-                                            height: 15px;
-                                            color: $bl;
-                                            text-align: center;
-            
-                                            font:  10px  "orbit", sans-serif;
-                                            background-color: $yg;
-                                            border-radius: 50%;
-                                            vertical-align: super;
-                                            // margin-top: -5px;
-                                        }
-                                        strong.long{
-                                            font:  10px  "orbit", sans-serif;
-                                            background-color: transparent;
-                                            border-radius: 50%;
-                                            vertical-align: super;
-                                            width: fit-content;
-                                            color: $bl;
-                                        }
-            
-                                        em {
-                                        
-                                            display: inline;
-                                        
-                                            align-items: center;
-                                            // gap: 4px;
-                                            font-style: normal;
-                                        
-                                            &::before, &::after{
-                                            content: "";
-                                            width: 6px;
-                                            height: 6px;
-                                            background-color: $bl; // 원하는 색상
-                                            border-radius: 50%;
-                                            display: inline-block;
-                                            //   position: absolute;
-                                            margin-left: -2px;
-
-                                            vertical-align: super;
-                                            }
-                                            &::after{
-                                
-                                            margin-left: -2px;
-                                            }
-                                            &::before{
-                                
-                                                margin-right: -2px;
-                                                }
-                                        }
-
-                                        a {
-                                            text-decoration-line: underline;    
-                                            text-decoration-style: dotted;   
-                                            text-decoration-color: $bl;     
-                                            color: $bl;
-                                        
-                                            &:visited {
-                                            color: $bl;
-                                            }
-                                        }
-                                    }
-                
-                                
-                                
-                                }
-                                .eng{
-                                    margin-left: 15%;
-                                    opacity: .4;
-                                    text-align: right;
-                                }
-
-                            }
-                            
-
-                            .info{
-                                height: 80px;
-                                position: absolute;
-                                z-index: 11;
-                                bottom: 0px;
-                              bottom: 0px;
-                                display: flex;
-                                justify-content: space-between;
-                                flex-flow: row;
-                                padding: 2px 10%;
-
-                                    // border-top: 2px solid $bl;
-                                width: 80%;
-                                .infobox{
-                                    display: flex;
-                                    justify-content: start;
-                                    padding: 5px 0px;
-                                    width: fit-content;
-                                    height: fit-content;
-                                    .infoicon{
-                                        display: flex;
-                                        justify-content: start;
-                                        align-items: start;
-                                        width: 20px;
-                                        margin-right: 5px;
-                                        img{
-                                            width: 100%;
-                                        }
-                                    }
-
-                                    .infoletter{
-                                        width: 90px;
-
-                                        h1{
-                                        text-align: left;
-                                            font:  $fontinfo "orbit", sans-serif;
-                                            color: $bl;
-                                            letter-spacing: -1px;
-                                        }
-
-                                    }
-
-                                }
-                            }
-                        }
-                        .pcateimg{
-                            display: none;
-                        }
-                    }
-                }
-                
-
- 
-            }
-           
             .gridframe{
+                width: 350px;
+
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                
                 flex-shrink: 0;
                 padding: 20px 0px;
-                width: 350px;
+                transition: .7s;
+
                 &.hidden{
                     display: none;
                   }       
                   &:hover{
                     transform: translateY(-7px);
-                    transition: transform 0.7s ease;
+                    // transition: transform 0.7s ease;
                 }
                
                 .gridpost{
-                    margin-left: 70px;
-                    transition: .7s;                
-                  
-
                     width: 280px;
                     height: 350px;
                     display: flex;
                     align-items: end;
-                
+
+                    margin-left: 70px;
+                    transition: .7s;      
 
                     .pleft{
-
-                    box-shadow: 0px 0px 3px $sd;
                         width: 250px;
-                  
                         height: 350px;
-                        
+
                         display: flex;
                         flex-flow: column;
                         justify-content: start;
                         align-items: start;
-                        
-                        background-color: $ws;
-         
 
-                      
-                   
+                        box-shadow: 0px 0px 3px $sd;
+
+                    background-color: $gr;
+         
                         .pinfo{
                             width: 100%;
                             height: 50px;
+
                             display: flex;
                             align-items: start;
                             justify-content: space-between;
+
                             padding: 3px;
                             padding: 4px 30px 0px 0px;
-                            h1, em{
-                                // text-align: right;
-                                font: normal $fontsize  "orbit", sans-serif;
-                                color: $wt;
-                                font-weight: 100;
-                                // color: $yg;
-                                margin-top: -4px;
-                                letter-spacing: -1px;
-                                // background-color: $yg;
-                                // text-shadow: 0px 0px 2px $wt;
-                           
-                            }
-                  
-                            em{
-                                &::before, &::after{
-                                    width: 5px;
-                                    height: 5px;
-                                    margin-left: -2px;
-                                    margin-top: 2px;
-                                    background-color: $gr;
-                                    content: "";
-                                    position: absolute;
-                                    border-radius: 50%;
-    
-                                }
-
-                            }
-
 
                             .pyear, .ptitle{
                                 width: fit-content;
-                                // position: relative;
                                 h1, h2, em{
-                                    // text-align: right;
-                                    font: lighter $fontsize  "orbit", sans-serif;
-                                   position: relative;
-                                    color: $gr;
-                                    font-weight: 80;
-                                    // color: $yg;
+                                    position: relative;
+                                    z-index: 14;
                                     margin-top: -4px;
+                                    background-color: $wt;
+
+                                    font: lighter $fontsize  "orbit", sans-serif;
+                                    font-weight: 80;
                                     letter-spacing: 0px;
                                     line-height: 2;
-                                    background-color: $wt;
-                                    // outline: 2px dotted $wt;
-                                    z-index: 14;
-                                    
-                             
-                                    // border: 3px double $gr;
-                                    // height: fit-content;
-                                  
-                               
+                                    color: $gr;                            
                                 }
                                 em{
                                     &::before, &::after{
                                         width: 3px !important;
                                         height: 3px !important;
                                         margin-left: -2px;
-                                        margin-top: 5px;
+                                        margin-top: 4px;
                                         background-color: $gr;
                                         content: "";
                                         position: absolute;
                                         border-radius: 50%;
-        
                                     }
                                   
                                 }
-
                                 h2{
-                                    // font-size: 8px;
                                     margin-left: 10px;
                                     padding-top: 2px;
-                                    em{
-                                        // font-size: 8px;
-                                  
-                                    }
                                 }
-                      
-                                
                             }
                             .pyear{
                                 box-shadow: 0px 0px 2px $sd;
                                 h1{
+                                    z-index: 0;
                                     margin-top: -25px;
                                     margin-left: 20px;
-                                    padding: 0px 0px;
-                                    z-index: -1;
+                                    padding: 0px 5px;
+                                
                                     color: $yg;
                                     background-color: $gr;
                                 }
                             }
                    
                             .ptitle{
-                                height: 100px;
-                                width: fit-content;
-                                
+                                height: 100px;      
+
                                 display: flex;
                                 flex-flow: column;
                                 justify-content: start;
                                 align-items: start;
+
                                 padding-top: 23px;
-                                h1, em{
-                            
-                                    // color: gray;
-                    
-                                  
-                               
-                                }
-                 
                             }           
                         }
                         .pimg{
                             height: 350px;
                             width: 250px;
-
-                            display: flex;
-                            align-items: end; 
                             position: absolute;
                             top: 0%;
                             left: 0%;
-                        .pthumb{
-                            width: 100%;
-                            height: 100%;
-                            display: flex;
-                            flex-flow: column;
-                            align-items: center;
-                            justify-content: end;
-                            img{
+
+                            .pthumb{
                                 width: 100%;
-                                // height: auto; 
                                 height: 100%;
-                                object-fit: cover;
+
+                                display: flex;
+                                flex-flow: column;
+                                align-items: center;
+                                justify-content: end;
                                 
-                                &.on{
-                                    width: 95%;
-                                    // height: 250px;
-                                    height: auto; 
-                                    // width: auto;
-                                    object-fit: contain;
-                                    margin-bottom: 5px;
+                                img{
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                    
+                                    
+                                    &.on{
+                                        width: 95%;
+                                        height: auto; 
+                                        object-fit: contain;
+                                        margin-bottom: 5px;
+                                    }
                                 }
                             }
                         }
-                        
-                        .pimgrest{
-                            display: none;
-                        .video iframe{
-                            display: none;
-
-                        }
-                       
-                        }
                     }
-
-                        
-                    }
-             
-              
                     .pcateimg{
-
-                        width: 20px;
-                        margin-bottom: 40px;
+                        width: 22px;
                         height: fit-content;
+                        z-index: 0;
+
+                        margin-bottom: 50px;
                         padding: 5px 0px;
+
                         background-color: $blur;
                         backdrop-filter: blur(15px);
                         -webkit-backdrop-filter: blur(15px);
 
                         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
-                        z-index: 1;
 
-                                    display: flex;
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: end;
+                        align-items: center;
 
-                                    flex-flow: column;
-                                    justify-content: end;
-                                    align-items: center;
-                                    img{
-                                        width: 15px;
-                                        margin-top: 2px;
-                                    }
-                                }
-
-                    .pright{
-                        display: none;
-                    }
-                        }   
-                        .gridpost:not(.click) .pleft .pimg .pimgrest .video{
-                            display: none;
-                            
-                          }          
-                    }
-             
-                     
-    }
+                            img{
+                                width: 15px;
+                                margin-top: 2px;
+                            }
+                        }
+                    }   
+               
+                }         
+            }
     .gridbox > .gridframe:nth-of-type(even) {
         margin-top: 80px;
       }
 
     .about{
+        width: 100%;
+        height: $whs;
+        z-index: 1;
+
         position: absolute;
         top: $wh;
         left: 0px;
         padding: 30px 0px 0px 30px;
-        width: 100%;
-        height: $whs;
-        z-index: 1;
+
         display: flex;
         flex-flow: column;
+
         &.on{
             z-index: 3;
             background-color: $yg;
         
             h1, h2, h3{
                 font-family:"orbit", sans-serif;
-                font-style: normal;
+                // font-style: normal;
                 font-weight: 100;
                 color: $bl;
                 
             }
             .about-section{
                 display: flex;
-                width: 100%;
+                width: 700px;
                 overflow: auto;
+
                 &::-webkit-scrollbar {
                     display: none;
                 }
                 .about-cv{
                     width: 100%;
+                    
                     padding-bottom: 30px;
                     overflow: auto;
                     display: flex;
@@ -973,80 +457,71 @@ body{
 
                             }
                             .infoindi{
+                                height: fit-content;
+                                width: 100%;
+
                                 display: flex;
                                 align-items: start;
                                 justify-content: start;
                                 flex-flow: column;
-                                height: 80px;
-                                width: 100%;
-
-                            height: fit-content;
 
                                 margin-bottom: 30px;
+
                                 .infoleft, .inforight{
+                                    height: fit-content;
                                     display: flex;
                                     flex-flow: column;
-                                    // justify-content: space-between;
                                     justify-content: start;
                                     align-items: start;
-                            
-                            height: fit-content;
-                            a{
-                                h1{
-                                text-decoration-line: underline;    
-                                text-decoration-style: dotted;   
-                                text-decoration-color: $bl;     
-                                color: $bl;
-                            }
-                                &:visited {
-                                color: $bl;
-                                }
-                            }
-                                
-
-                                
+                                    a{
+                                        h1{
+                                        text-decoration-line: underline;    
+                                        text-decoration-style: dotted;   
+                                        text-decoration-color: $bl;     
+                                        color: $bl;
+                                    }
+                                        &:visited {
+                                        color: $bl;
+                                        }
+                                        &:hover{
+                                            opacity: .7;
+                                        }
+                                    }
                                     h1{
                                         font-size: 17px;
                                         line-height: 1.1;
                                         display: inline-block;
-                                        // margin-top: 2px;
-                                    
-                                        &:hover{
-                                            opacity: .7;
+                                        white-space: normal;
+                                        word-break: break-word;
+                                        overflow-wrap: break-word;
+                                        em{
+                                            display: inline;              
+                                            align-items: center;
+                                            font-style: normal;
+                                            margin-left: 2px;
+                                        
+                                            &::before, &::after{
+                                            content: "";
+                                            width: 3px;
+                                            height: 3px;
+                                            background-color: $bl; // 원하는 색상
+                                            border-radius: 50%;
+                                            display: inline-block;
+                                            //   position: absolute;
+                                            margin-left: -2px;
+                                            margin-top: -2px;
+
+                                            vertical-align: super;
+                                            }
+                                            &::after{
+
+                                            margin-left: -2px;
+                                            }
+                                            &::before{
+
+                                                margin-right: -2px;
+                                                }
                                         }
-
-                                            white-space: normal;
-            word-break: break-word;
-            overflow-wrap: break-word;
-            em{
-                display: inline;
-                                            
-                align-items: center;
-                // gap: 4px;
-                font-style: normal;
-                margin-left: 2px;
-            
-                &::before, &::after{
-                content: "";
-                width: 3px;
-                height: 3px;
-                background-color: $bl; // 원하는 색상
-                border-radius: 50%;
-                display: inline-block;
-                //   position: absolute;
-                margin-left: -2px;
-
-                vertical-align: super;
-                }
-                &::after{
-
-                margin-left: -2px;
-                }
-                &::before{
-
-                    margin-right: -2px;
-                    }
-            }
                                     }
                                     h2{
                                         font-size: 15px;
@@ -1093,9 +568,6 @@ body{
                                         word-break: break-word;
 
                                     }
-                                    
-
-                            
                                 }
 
                                 .infoleft{
@@ -1154,24 +626,29 @@ body{
     }
 
 
-    @media screen and (max-width: 740px){
+    @media screen and (max-width: 700px){
         overflow: hidden;
             .header{
                 height: $mh;
                 .title{
-                    justify-content: center;
+                    // justify-content: center;
+
+                    // justify-content: end;
                     padding: 0px;
                     .headtxt{
                         // display: none;
                         padding-bottom: 4px;
+                        width: 40px;
  
                     }
                     #works{
                         justify-content: start;
+                        // display: none;
+                        width: 0px;
 
-                      margin-left: 10px;
+                    //   margin-left: 10px;
                         ::before{
-                            content: 'n.w';
+                            content: '';
                             font: 20px/1.3 "orbit", sans-serif;
                             // margin-top: -7px;
                             letter-spacing: -4px;
@@ -1192,10 +669,15 @@ body{
                     }
                     }
                     .list{
-                        width: 300px;
+                        width: 330px;
                         height: $mh;
                         .listtxt{
-                            display: none;
+                            // display: none;
+                            // font-size: 3px;
+                            margin-right: 5px;
+                            h1{
+                                font-size: 9px;
+                            }
                         }
                         .icon{
                             &:hover, &.on{
@@ -1280,163 +762,7 @@ body{
                     }
                    }
 
-                &.click{
-                    height: $mhs;    
-                    padding-bottom: 0px;
-                    padding-top: 0px;
-
-                    mask-image:none;
-                    -webkit-mask-image: none;
-                    .gridframe.click{
-                        .gridpost.click{
-                            display: flex;
-                            flex-flow: column;
-
-                            .pleft{
-                                width: 100%;
-                                height: fit-content;
-
-                                .pinfo{
-                                    height: 20px;
-                                    .pyear{
-                                        left: 0px;
-                                        // display: none;
-                                    }
-
-                                    h1, h2, em{
-                                    
-                                        height: fit-content;
-                                        width: fit-content;
-                                        margin: 2px 0px 0px 3px;
-                                    
-                                    }
-                                    h2{
-                                        margin-top: 2px;
-                                    }
-                                    .ptitle{
-                                        padding: 0px;
-                                        justify-content: end;
-                                        align-items: center;
-
-                                        
-                                    }
-
-                                    .ptitle, .pyear{
-                                        h1, h2, em{
-                                            font: lighter $fontinfo "orbit", "san-serif";
-                                        }
-                                    }
-                                }
-                                .pimg{
-
-                                    padding-top: 0px;
-                                  .pimgrest{
-                                    display: flex;
-                                    flex-flow: row nowrap; // 요소를 가로로 나열
-                                    overflow-x: auto;
-                                    overflow-y: hidden;
-                                    align-items: end;
-                                    width: 100vw;
-                                    height: fit-content;
-                                    background-color: black;
-                                    &::-webkit-scrollbar {
-                                        display: none;  /* Chrome, Safari, Opera */
-                                    }
-                                    scroll-snap-type: x mandatory; // 핵심!!
-                                    scroll-behavior: smooth;
-
-                                    .pimrestbox{
-                                        flex: 0 0 100vw; // 한 번에 한 화면 차지
-                                        scroll-snap-align: start; // 왼쪽에 딱 맞게 스냅
-                                        position: relative;
-                                        width: 100vw;
-                                        height: fit-content;
-                                     
-                                        align-self: center;
-                                        img{
-
-                                        width: 100vw;
-                                        height: fit-content;
-                                        }
-
-                                        .video{
-                                            flex: 0 0 auto; // shrink 방지
-                                            width: 100%;
-                                            height: 100%;
-                                            background-color: black;
-                                            iframe{
-                                                width: 100%;
-                                                height: 100%;
-    
-                                            background-color: black;
-
-                                    
-                                            }
-                                        }
-
-                                        .imgnumber{
-                                            height: 15px;
-                                            width: 15px;
-                                            p{
-
-                                            font-size: 10px;
-                                            }
-                                        }
-                                    }
-
-                                  }
-
-                                }
-                            }
-                            .pright{
-                                width: 100%;
-                                // height: 40%;
-                                height: auto;
-                                overflow-y: auto;
-                                .xbtn{
-                                    // top:calc(100% - 75px);
-                                    top: 0px;
-                                    width: 25px;
-                                    height: 25px;
-                                    // margin-bottom: -5px;
-
-                                    &:hover{
-                                        width: 28px;
-                                        height: 28px;
-                                        top: 0px;
-                                    }
-                                }
-                                .wordblock{
-                                    padding-bottom: 30px;
-                                    height: calc(100% - 50px);
-                                    .kor, .eng{
-                                        p{
-                                            font-size: 10px;
-
-                                        }
-                                    }
-                                   
-                                }
-
-                                .info{
-                                    height: fit-content;
-                                    padding: 10px 40px;
-                                    bottom: 0px;
-                                    .infobox{
-                                        .infoicon{
-                                            width: 15px;
-                                        }
-                                        .infoletter{
-                                            h1{
-                                                font-size: 7px;
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
+            
                 }
                 .gridbox > .gridframe:nth-of-type(even) {
                     margin-top: 0px;

@@ -1,0 +1,24 @@
+[
+      {
+    "titleKor": "<em>웅자</em> 리브랜딩",
+    "titleEng": "<em>Woongza</em> Rebranding Project",
+    "year": "2020",
+    "pleft":[
+    
+      "<div class='pimrestbox'><img src='img/post/woongza/1.png' loading='lazy'><div class='imgnumber'><p>1</p></div></div>",  "<div class='pimrestbox'><div class='video'><iframe src='https://www.youtube.com/embed/utB6on6_Gvk?autoplay=1&loop=1&playlist=utB6on6_Gvk' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen loading='lazy'></iframe></div><div class='imgnumber'><p>1</p></div></div>",
+      "<div class='pimrestbox'><img src='img/post/woongza/2.png' loading='lazy'><div class='imgnumber'><p>2</p></div></div>",
+      "<div class='pimrestbox'><img src='img/post/woongza/3.jpg' loading='lazy'><div class='imgnumber'><p>2</p></div></div>"
+    ],
+    "backgroundColor": "#1bc5db",
+    "description": [
+      "<div class='kor'><p>안타깝게도 여기도 빈 곳이다. 김말이 바버</p></div>"
+    ],
+    "info": [
+      {
+        "output": "Logo Design. Brand Manual. Applications. Motion Graphics",
+        "tool": "Illustrator. Photoshop. AfterEffects.",
+        "time": "3 months<br>2021.09 - 2021.12"
+      }
+    ]
+  }
+]

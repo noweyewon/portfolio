@@ -1,0 +1,38 @@
+[
+    {
+        "titleKor": "2025 <em>푸른 뱀의 해</em> 연하장",
+        "titleEng": "New Year's Greetings 2025",
+        "year": "2024",
+        "pleft":[
+        
+          "<div class='pimrestbox'><img src='img/post/greet25/2.png' loading='lazy'><div class='imgnumber'><p>1</p></div></div>",
+          "<div class='pimrestbox'><div class='imgnumber'><p>2</p></div><div class='video'><iframe src='https://www.youtube.com/embed/p4YRM4lCsJs?enablejsapi=1&autoplay=1&loop=1&playlist=p4YRM4lCsJs' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen loading='lazy'></iframe></div></div>",
+    
+          "<div class='pimrestbox'><img src='img/post/greet25/3.png' loading='lazy'><div class='imgnumber'><p>3</p></div></div>",
+          "<div class='pimrestbox'><img src='img/post/greet25/4.png' loading='lazy'><div class='imgnumber'><p>4</p></div></div>",
+          "<div class='pimrestbox'><img src='img/post/greet25/1.png' loading='lazy'><div class='imgnumber'><p>5</p></div></div>",
+          "<div class='pimrestbox'><img src='img/post/greet25/5.png' loading='lazy'><div class='imgnumber'><p>6</p></div></div>",
+          "<div class='pimrestbox'><img src='img/post/greet25/7.png' loading='lazy'><div class='imgnumber'><p>7</p></div></div>"
+        ],
+        "backgroundColor": "#8198b9",
+        "description": [
+          
+          "<div class='kor'><p>2025년 <em>푸른 뱀의 해</em>를 위해 제작한 연하장입니다.</p></div>",
+          "<div class='eng'><p>New Year’s greeting card for 2025, <em>the Year of the Blue Snake</em>.</p></div>",
+          "<div class='kor'><p>매년 말 다음 해를 상징하는 십이지를 주제로 연하장을 작업하면서, 한 해의 마무리와 시작에 어울리는 요소를 넣어 디자인했습니다. 휴대성 있는 작은 판형<strong class=long>91mm x 55mm</strong>으로 만들어 연하장을 지닌 사람에게 항상 길운이 함께하길 바라는 마음을 담았고, 매년 같은 비율로 작업해 수집 요소를 넣었습니다.</p></div>",
+          "<div class='eng'><p>At the end of each year, I design cards inspired by the zodiac animal of the upcoming year, incorporating elements that reflect both closure and renewal. The cards are created in a compact, portable format, carrying a wish for good fortune to accompany the recipient throughout the year. I also maintain a consistent size and proportion annually, making each year's card a collectible item.</p></div>",
+          "<div class='kor'><p>2025년 <em>푸른 뱀의 해</em>의 연하장은 뱀의 긴 몸체라는 특성을 활용하기 위해 가로로 긴 판형<strong>5</strong>으로 제작하였고, <em>뒤를 돌아보지 않고 앞으로만 나아가는</em> 뱀의 행동 양식과 같이 지난 해의 허물을 벗고 앞으로 나아가자는 메세지를 담았습니다. 다양한 형태와 색깔의 푸른 뱀을 담은 총 7종<strong>1</strong><strong>3</strong>의 연하장을 제작했습니다.</p></div>",
+          "<div class='eng'><p>For 2025, <em>the Year of the Blue Snake</em>, I used a wide horizontal format<strong>5</strong> to reflect the elongated form of the snake. The concept conveys a message of shedding the past and moving forward, inspired by the snake’s instinct to <em>keep moving ahead without looking back</em>. The series includes seven variations<strong>1</strong><strong>3</strong>, each featuring a unique form and color of a blue snake.</p></div>",
+          "<div class='kor'><p>연하장의 세부적인 요소를 살펴볼 수 있는 모션 그래픽<strong>2</strong>과, 사용자가 직접 요소 별 색상을 커스텀 해 다운로드 할 수 있는 <a href='https://noweyewon.github.io/bluesnake/' target=blank>웹 사이트</a><strong>7</strong> 역시 제작하였습니다.</p></div>",
+          "<div class='eng'><p>I also created a motion graphic<strong>2</strong> to showcase the card’s detailed elements, along with a <a href='https://noweyewon.github.io/bluesnake/' target=blank>website</a><strong>7</strong> where users can personalize color schemes and download their own versions.</p></div>",
+          "<br><div class='kor'><p><strong class=long>91mmx55mm, 2p, double-sided</strong></p></div>"
+        ],
+        "info": [
+          {
+            "output": "Graphic Designs. Motion Graphics. Web Designs",
+            "tool": "Illustrator. Photoshop. AfterEffects. Html/CSS/JS",
+            "time": "3 months<br>2024.10 - 2024.12"
+          }
+        ]
+      }
+]

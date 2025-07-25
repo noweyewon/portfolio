@@ -1,0 +1,23 @@
+[
+    {
+        "titleKor": "휘어진 시간",
+        "titleEng": "Croooooked Time",
+        "year": "2021",
+        "backgroundColor": "#0000ff",
+        "pleft":[
+        
+          "<div class='pimrestbox'><img src='img/post/hwisi/1.png' loading='lazy'><div class='imgnumber'><p>1</p></div></div>",  "<div class='pimrestbox'><div class='videoshort'><iframe rc='https://www.youtube.com/embed/utB6on6_Gvk?autoplay=1&loop=1&playlist=utB6on6_Gvk' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen loading='lazy' class='short' ></iframe></div><div class='imgnumber'><p>1</p></div></div>",
+          "<div class='pimrestbox'><img src='img/post/hwisi/2.png' loading='lazy'><div class='imgnumber'><p>2</p></div></div>",
+          "<div class='pimrestbox'><img src='img/post/hwisi/3.png' loading='lazy'><div class='imgnumber'><p>2</p></div></div>"
+        ],
+        "description": [
+          "<div class='kor'><p>김말이 안뇽? 여긴 빈 곳이다. 바보바보뽀부</p></div>"],
+        "info": [
+          {
+            "output": "Logo Design. Brand Manual. Applications. Motion Graphics",
+            "tool": "Illustrator. Photoshop. AfterEffects.",
+            "time": "3 months<br>2021.09 - 2021.12"
+          }
+        ]
+      }
+]

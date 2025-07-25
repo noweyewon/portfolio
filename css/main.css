@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css");
 @import url("https://use.typekit.net/bto3byu.css");
 * {
@@ -42,25 +41,20 @@ body .header {
 body .header .title {
   width: 100%;
   height: 100%;
-  background-color: rgb(206, 255, 109);
   display: flex;
   flex-flow: row;
   justify-content: space-between;
   align-items: center;
+  background-color: rgb(206, 255, 109);
   padding: 0px 28px 0px 28px;
+  color: #aeaeae;
 }
 body .header .title .headtxt {
   width: 100px;
   height: 100%;
   display: flex;
   align-items: center;
-}
-body .header .title .headtxt h1 {
-  font: 25px/1.3 "orbit", sans-serif;
   margin-top: -7px;
-  letter-spacing: -4px;
-  text-align: left;
-  color: #aeaeae;
 }
 body .header .title #works {
   justify-content: start;
@@ -70,19 +64,15 @@ body .header .title #works ::before {
   font: 25px/1.3 "orbit", sans-serif;
   letter-spacing: -4px;
   text-align: left;
-  color: #aeaeae;
 }
 body .header .title #yewon {
   justify-content: end;
-  color: #aeaeae;
 }
 body .header .title #yewon ::before {
   content: "yewon.lee";
   font: 25px/1.3 "orbit", sans-serif;
-  margin-top: -7px;
   letter-spacing: -4px;
   text-align: left;
-  color: #aeaeae;
 }
 body .header .title .list {
   width: 600px;
@@ -93,17 +83,16 @@ body .header .title .list {
   align-items: center;
 }
 body .header .title .list .listtxt {
+  width: 60px;
+  height: 30px;
   display: flex;
   justify-content: right;
   align-items: center;
-  width: 60px;
-  height: 30px;
   margin-right: 10px;
 }
 body .header .title .list .listtxt h1 {
   font: normal 12px/1.1 "orbit", sans-serif;
   text-align: right;
-  color: #aeaeae;
 }
 body .header .title .list .icon {
   width: fit-content;
@@ -111,26 +100,20 @@ body .header .title .list .icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0px 0px;
 }
 body .header .title .list .icon h1 {
   font: normal 0px "orbit", sans-serif;
   font-weight: 400;
   text-align: right;
-  color: #aeaeae;
   opacity: 0;
 }
-body .header .title .list .icon:hover .iconimg {
+body .header .title .list .icon:hover .iconimg, body .header .title .list .icon.on .iconimg {
   opacity: 1;
   width: 43px;
 }
 body .header .title .list .icon.on h1 {
   opacity: 1;
   font-size: 25px;
-}
-body .header .title .list .icon.on .iconimg {
-  opacity: 1;
-  width: 43px;
 }
 body .header .title .list .icon .iconimg {
   display: flex;
@@ -149,11 +132,11 @@ body .main {
   align-items: start;
 }
 body .main .mainimage {
-  position: fixed;
   z-index: 1;
-  bottom: 0px;
   width: 100%;
   height: calc(100vh - 50px);
+  position: fixed;
+  bottom: 0px;
   overflow: hidden;
 }
 body .main .mainimage img {
@@ -165,11 +148,10 @@ body .main .postbttns {
   z-index: 1;
   width: 100%;
   height: calc(100vh - 50px);
+  position: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
-  transition: 0s;
 }
 body .main .postbttns p {
   font: 30vw/1.3 "orbit", sans-serif;
@@ -179,16 +161,16 @@ body .main .postbttns p {
   text-align: center;
 }
 body .main .gridbox {
+  z-index: 2;
+  width: 100%;
+  height: calc(100vh - 200px);
+  position: absolute;
+  bottom: 0px;
+  place-items: center;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   overflow-x: hidden;
   overflow-y: auto;
-  height: calc(100vh - 200px);
-  z-index: 2;
-  width: 100%;
-  position: absolute;
-  bottom: 0px;
-  place-items: center;
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgb(0, 0, 0) 20px);
   -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgb(0, 0, 0) 20px);
   mask-mode: match-source;
@@ -197,367 +179,38 @@ body .main .gridbox {
 body .main .gridbox::-webkit-scrollbar {
   display: none;
 }
-body .main .gridbox.click {
-  width: 100%;
-  height: calc(100vh - 50px);
-  bottom: 0px;
-  transition: 0s;
-  mask-image: none;
-  -webkit-mask-image: none;
-}
-body .main .gridbox.click .gridframe.click {
-  padding: 0px;
-  transform: translate3d(0px, 0px, 0px);
-  width: 100%;
-  height: 100%;
-  margin-top: 0px;
-}
-body .main .gridbox.click .gridframe.click :nth-of-type(even) {
-  top: 0px;
-}
-body .main .gridbox.click .gridframe.click .gridpost.off {
-  width: 0%;
-  height: 0%;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click {
-  opacity: 1;
-  position: absolute;
-  left: 0px;
-  margin-left: 0px;
-  transition: 0.7s;
-  margin-top: 0px;
-  z-index: 10;
-  width: 100%;
-  height: 100%;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click:hover {
-  margin-top: 0px;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pleft {
-  width: 60%;
-  height: 100%;
-  display: flex;
-  flex-flow: column;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pinfo {
-  width: 100%;
-  height: fit-content;
-  display: flex;
-  justify-content: space-between;
-  background-color: transparent;
-  position: relative;
-  z-index: 12;
-  padding-top: 0px;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pinfo h1, body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pinfo em {
-  font-size: 15px;
-  line-height: 1.2;
-  margin-left: 10px;
-  height: 15px;
-  background-color: transparent !important;
-  margin-top: 1px;
-  color: #f2f2f2;
-  outline: none;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pinfo em::before {
-  width: 5px;
-  height: 5px;
-  margin-right: 2px;
-  background-color: #f2f2f2;
-  content: "";
-  position: absolute;
-  border-radius: 50%;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pinfo em::after {
-  background-color: #f2f2f2;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pinfo h2 {
-  background-color: transparent;
-  outline: none;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pinfo .ptitle {
-  border: none;
-  display: flex;
-  flex-flow: row;
-  position: relative;
-  height: fit-content;
-  padding: 0px 10px;
-  right: 0px;
-  z-index: 13;
-  background-color: transparent;
-  position: absolute;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pinfo .ptitle h2 {
-  color: #f2f2f2;
-  margin-top: 1px;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pinfo .pyear {
-  position: absolute;
-  height: fit-content;
-  left: 10px;
-  width: fit-content;
-  z-index: 13;
-  background-color: transparent;
-  box-shadow: none;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pimg {
-  position: relative;
-  padding-top: 25px;
-  height: fit-content;
-  width: 100%;
-  display: flex;
-  flex-flow: column;
-  align-items: start;
-  overflow: auto;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pimg::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, Opera */
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pimg .pthumb {
-  display: none;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pimg .pthumb img {
-  display: none;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pimg .pimgrest {
-  display: block;
-  width: 100%;
-  display: flex;
-  flex-flow: column;
-  align-items: start;
-  position: relative;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pimg .pimgrest .pimrestbox {
-  width: 100%;
-  display: flex;
-  flex-flow: column;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pimg .pimgrest .pimrestbox .imgnumber {
-  position: absolute;
-  height: 20px;
-  width: 20px;
-  background-color: rgb(206, 255, 109);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pimg .pimgrest .pimrestbox .imgnumber p {
-  font: 13px/1.3 "orbit", sans-serif;
-  transition: 0s;
-  color: #959595;
-  text-align: center;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pimg .pimgrest .pimrestbox img {
-  width: 100%;
-  top: 0%;
-  object-fit: contain;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pimg .pimgrest .pimrestbox .video {
-  width: 100%;
-  left: 0px;
-  margin-bottom: -5px;
-  display: block;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pimg .pimgrest .pimrestbox .video iframe {
-  display: block;
-  width: 100%;
-  aspect-ratio: 16/9;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pimg .pimgrest .pimrestbox .video.short iframe {
-  width: 100%;
-  aspect-ratio: 1/1 !important;
-  display: block;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pright {
-  display: block;
-  width: 40%;
-  height: calc(100vh - 160px);
-  bottom: 0px;
-  background-color: rgba(247, 247, 247, 0.764);
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* 부드러운 그림자 */
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pright .xbtn {
-  z-index: 11;
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  top: -30px;
-  right: 0px;
-  background-color: rgb(206, 255, 109);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pright .xbtn i {
-  color: rgb(206, 255, 109);
-  font-size: 25px;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pright .xbtn img {
-  width: 95%;
-  object-fit: contain;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pright .xbtn:hover {
-  width: 35px;
-  height: 35px;
-  top: -35px;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pright .wordblock {
-  overflow-x: hidden;
-  width: 100%;
-  height: calc(100% - 80px);
-  overflow-y: auto;
-  padding: 15px 15px 100px 0px;
-  mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0px, rgb(0, 0, 0) 20px);
-  -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0px, rgb(0, 0, 0) 20px);
-  mask-mode: match-source;
-  -webkit-mask-mode: match-source;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pright .wordblock::-webkit-scrollbar {
-  display: none;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pright .wordblock .kor, body .main .gridbox.click .gridframe.click .gridpost.click .pright .wordblock .eng {
-  margin-left: 10%;
-  width: 85%;
-  text-align: left;
-  margin-top: 10px;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pright .wordblock .kor p, body .main .gridbox.click .gridframe.click .gridpost.click .pright .wordblock .eng p {
-  text-align: left;
-  font: 15px "orbit", sans-serif;
-  color: #959595;
-  letter-spacing: -1px;
-  overflow-wrap: break-word;
-  word-break: break-word;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pright .wordblock .kor p strong, body .main .gridbox.click .gridframe.click .gridpost.click .pright .wordblock .eng p strong {
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  color: #959595;
-  text-align: center;
-  font: 10px "orbit", sans-serif;
-  background-color: rgb(206, 255, 109);
-  border-radius: 50%;
-  vertical-align: super;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pright .wordblock .kor p strong.long, body .main .gridbox.click .gridframe.click .gridpost.click .pright .wordblock .eng p strong.long {
-  font: 10px "orbit", sans-serif;
-  background-color: transparent;
-  border-radius: 50%;
-  vertical-align: super;
-  width: fit-content;
-  color: #959595;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pright .wordblock .kor p em, body .main .gridbox.click .gridframe.click .gridpost.click .pright .wordblock .eng p em {
-  display: inline;
-  align-items: center;
-  font-style: normal;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pright .wordblock .kor p em::before, body .main .gridbox.click .gridframe.click .gridpost.click .pright .wordblock .kor p em::after, body .main .gridbox.click .gridframe.click .gridpost.click .pright .wordblock .eng p em::before, body .main .gridbox.click .gridframe.click .gridpost.click .pright .wordblock .eng p em::after {
-  content: "";
-  width: 6px;
-  height: 6px;
-  background-color: #959595;
-  border-radius: 50%;
-  display: inline-block;
-  margin-left: -2px;
-  vertical-align: super;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pright .wordblock .kor p em::after, body .main .gridbox.click .gridframe.click .gridpost.click .pright .wordblock .eng p em::after {
-  margin-left: -2px;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pright .wordblock .kor p em::before, body .main .gridbox.click .gridframe.click .gridpost.click .pright .wordblock .eng p em::before {
-  margin-right: -2px;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pright .wordblock .kor p a, body .main .gridbox.click .gridframe.click .gridpost.click .pright .wordblock .eng p a {
-  text-decoration-line: underline;
-  text-decoration-style: dotted;
-  text-decoration-color: #959595;
-  color: #959595;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pright .wordblock .kor p a:visited, body .main .gridbox.click .gridframe.click .gridpost.click .pright .wordblock .eng p a:visited {
-  color: #959595;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pright .wordblock .eng {
-  margin-left: 15%;
-  opacity: 0.4;
-  text-align: right;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pright .info {
-  height: 80px;
-  position: absolute;
-  z-index: 11;
-  bottom: 0px;
-  bottom: 0px;
-  display: flex;
-  justify-content: space-between;
-  flex-flow: row;
-  padding: 2px 10%;
-  width: 80%;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pright .info .infobox {
-  display: flex;
-  justify-content: start;
-  padding: 5px 0px;
-  width: fit-content;
-  height: fit-content;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pright .info .infobox .infoicon {
-  display: flex;
-  justify-content: start;
-  align-items: start;
-  width: 20px;
-  margin-right: 5px;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pright .info .infobox .infoicon img {
-  width: 100%;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pright .info .infobox .infoletter {
-  width: 90px;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pright .info .infobox .infoletter h1 {
-  text-align: left;
-  font: 9px "orbit", sans-serif;
-  color: #959595;
-  letter-spacing: -1px;
-}
-body .main .gridbox.click .gridframe.click .gridpost.click .pcateimg {
-  display: none;
-}
 body .main .gridbox .gridframe {
+  width: 350px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
   padding: 20px 0px;
-  width: 350px;
+  transition: 0.7s;
 }
 body .main .gridbox .gridframe.hidden {
   display: none;
 }
 body .main .gridbox .gridframe:hover {
   transform: translateY(-7px);
-  transition: transform 0.7s ease;
 }
 body .main .gridbox .gridframe .gridpost {
-  margin-left: 70px;
-  transition: 0.7s;
   width: 280px;
   height: 350px;
   display: flex;
   align-items: end;
+  margin-left: 70px;
+  transition: 0.7s;
 }
 body .main .gridbox .gridframe .gridpost .pleft {
-  box-shadow: 0px 0px 3px rgb(51, 51, 51);
   width: 250px;
   height: 350px;
   display: flex;
   flex-flow: column;
   justify-content: start;
   align-items: start;
-  background-color: rgb(207, 207, 207);
+  box-shadow: 0px 0px 3px rgb(51, 51, 51);
+  background-color: #aeaeae;
 }
 body .main .gridbox .gridframe .gridpost .pleft .pinfo {
   width: 100%;
@@ -568,42 +221,25 @@ body .main .gridbox .gridframe .gridpost .pleft .pinfo {
   padding: 3px;
   padding: 4px 30px 0px 0px;
 }
-body .main .gridbox .gridframe .gridpost .pleft .pinfo h1, body .main .gridbox .gridframe .gridpost .pleft .pinfo em {
-  font: normal 11px "orbit", sans-serif;
-  color: #f2f2f2;
-  font-weight: 100;
-  margin-top: -4px;
-  letter-spacing: -1px;
-}
-body .main .gridbox .gridframe .gridpost .pleft .pinfo em::before, body .main .gridbox .gridframe .gridpost .pleft .pinfo em::after {
-  width: 5px;
-  height: 5px;
-  margin-left: -2px;
-  margin-top: 2px;
-  background-color: #aeaeae;
-  content: "";
-  position: absolute;
-  border-radius: 50%;
-}
 body .main .gridbox .gridframe .gridpost .pleft .pinfo .pyear, body .main .gridbox .gridframe .gridpost .pleft .pinfo .ptitle {
   width: fit-content;
 }
 body .main .gridbox .gridframe .gridpost .pleft .pinfo .pyear h1, body .main .gridbox .gridframe .gridpost .pleft .pinfo .pyear h2, body .main .gridbox .gridframe .gridpost .pleft .pinfo .pyear em, body .main .gridbox .gridframe .gridpost .pleft .pinfo .ptitle h1, body .main .gridbox .gridframe .gridpost .pleft .pinfo .ptitle h2, body .main .gridbox .gridframe .gridpost .pleft .pinfo .ptitle em {
-  font: lighter 11px "orbit", sans-serif;
   position: relative;
-  color: #aeaeae;
-  font-weight: 80;
+  z-index: 14;
   margin-top: -4px;
+  background-color: #f2f2f2;
+  font: lighter 11px "orbit", sans-serif;
+  font-weight: 80;
   letter-spacing: 0px;
   line-height: 2;
-  background-color: #f2f2f2;
-  z-index: 14;
+  color: #aeaeae;
 }
 body .main .gridbox .gridframe .gridpost .pleft .pinfo .pyear em::before, body .main .gridbox .gridframe .gridpost .pleft .pinfo .pyear em::after, body .main .gridbox .gridframe .gridpost .pleft .pinfo .ptitle em::before, body .main .gridbox .gridframe .gridpost .pleft .pinfo .ptitle em::after {
   width: 3px !important;
   height: 3px !important;
   margin-left: -2px;
-  margin-top: 5px;
+  margin-top: 4px;
   background-color: #aeaeae;
   content: "";
   position: absolute;
@@ -617,16 +253,15 @@ body .main .gridbox .gridframe .gridpost .pleft .pinfo .pyear {
   box-shadow: 0px 0px 2px rgb(51, 51, 51);
 }
 body .main .gridbox .gridframe .gridpost .pleft .pinfo .pyear h1 {
+  z-index: 0;
   margin-top: -25px;
   margin-left: 20px;
-  padding: 0px 0px;
-  z-index: -1;
+  padding: 0px 5px;
   color: rgb(206, 255, 109);
   background-color: #aeaeae;
 }
 body .main .gridbox .gridframe .gridpost .pleft .pinfo .ptitle {
   height: 100px;
-  width: fit-content;
   display: flex;
   flex-flow: column;
   justify-content: start;
@@ -636,8 +271,6 @@ body .main .gridbox .gridframe .gridpost .pleft .pinfo .ptitle {
 body .main .gridbox .gridframe .gridpost .pleft .pimg {
   height: 350px;
   width: 250px;
-  display: flex;
-  align-items: end;
   position: absolute;
   top: 0%;
   left: 0%;
@@ -661,22 +294,16 @@ body .main .gridbox .gridframe .gridpost .pleft .pimg .pthumb img.on {
   object-fit: contain;
   margin-bottom: 5px;
 }
-body .main .gridbox .gridframe .gridpost .pleft .pimg .pimgrest {
-  display: none;
-}
-body .main .gridbox .gridframe .gridpost .pleft .pimg .pimgrest .video iframe {
-  display: none;
-}
 body .main .gridbox .gridframe .gridpost .pcateimg {
-  width: 20px;
-  margin-bottom: 40px;
+  width: 22px;
   height: fit-content;
+  z-index: 0;
+  margin-bottom: 50px;
   padding: 5px 0px;
   background-color: rgba(247, 247, 247, 0.764);
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  z-index: 1;
   display: flex;
   flex-flow: column;
   justify-content: end;
@@ -686,23 +313,17 @@ body .main .gridbox .gridframe .gridpost .pcateimg img {
   width: 15px;
   margin-top: 2px;
 }
-body .main .gridbox .gridframe .gridpost .pright {
-  display: none;
-}
-body .main .gridbox .gridframe .gridpost:not(.click) .pleft .pimg .pimgrest .video {
-  display: none;
-}
 body .main .gridbox > .gridframe:nth-of-type(even) {
   margin-top: 80px;
 }
 body .main .about {
+  width: 100%;
+  height: calc(100vh - 50px);
+  z-index: 1;
   position: absolute;
   top: 50px;
   left: 0px;
   padding: 30px 0px 0px 30px;
-  width: 100%;
-  height: calc(100vh - 50px);
-  z-index: 1;
   display: flex;
   flex-flow: column;
 }
@@ -712,13 +333,12 @@ body .main .about.on {
 }
 body .main .about.on h1, body .main .about.on h2, body .main .about.on h3 {
   font-family: "orbit", sans-serif;
-  font-style: normal;
   font-weight: 100;
   color: #959595;
 }
 body .main .about.on .about-section {
   display: flex;
-  width: 100%;
+  width: 700px;
   overflow: auto;
 }
 body .main .about.on .about-section::-webkit-scrollbar {
@@ -765,21 +385,20 @@ body .main .about.on .about-section .about-cv .cvbox .cvinfo .date h3 {
   text-align: right;
 }
 body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi {
+  height: fit-content;
+  width: 100%;
   display: flex;
   align-items: start;
   justify-content: start;
   flex-flow: column;
-  height: 80px;
-  width: 100%;
-  height: fit-content;
   margin-bottom: 30px;
 }
 body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft, body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .inforight {
+  height: fit-content;
   display: flex;
   flex-flow: column;
   justify-content: start;
   align-items: start;
-  height: fit-content;
 }
 body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft a h1, body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .inforight a h1 {
   text-decoration-line: underline;
@@ -790,6 +409,9 @@ body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft
 body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft a:visited, body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .inforight a:visited {
   color: #959595;
 }
+body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft a:hover, body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .inforight a:hover {
+  opacity: 0.7;
+}
 body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft h1, body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h1 {
   font-size: 17px;
   line-height: 1.1;
@@ -797,9 +419,6 @@ body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft
   white-space: normal;
   word-break: break-word;
   overflow-wrap: break-word;
-}
-body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft h1:hover, body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h1:hover {
-  opacity: 0.7;
 }
 body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft h1 em, body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h1 em {
   display: inline;
@@ -815,6 +434,7 @@ body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft
   border-radius: 50%;
   display: inline-block;
   margin-left: -2px;
+  margin-top: -2px;
   vertical-align: super;
 }
 body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft h1 em::after, body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h1 em::after {
@@ -889,7 +509,7 @@ body .main .about .about-header .headerl {
 body .main .about .about-section {
   display: none;
 }
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 700px) {
   body {
     overflow: hidden;
   }
@@ -897,18 +517,18 @@ body .main .about .about-section {
     height: 35px;
   }
   body .header .title {
-    justify-content: center;
     padding: 0px;
   }
   body .header .title .headtxt {
     padding-bottom: 4px;
+    width: 40px;
   }
   body .header .title #works {
     justify-content: start;
-    margin-left: 10px;
+    width: 0px;
   }
   body .header .title #works ::before {
-    content: "n.w";
+    content: "";
     font: 20px/1.3 "orbit", sans-serif;
     letter-spacing: -4px;
     text-align: left;
@@ -926,11 +546,14 @@ body .main .about .about-section {
     color: #aeaeae;
   }
   body .header .title .list {
-    width: 300px;
+    width: 330px;
     height: 35px;
   }
   body .header .title .list .listtxt {
-    display: none;
+    margin-right: 5px;
+  }
+  body .header .title .list .listtxt h1 {
+    font-size: 9px;
   }
   body .header .title .list .icon:hover .iconimg, body .header .title .list .icon.on .iconimg {
     width: 32px;
@@ -994,124 +617,6 @@ body .main .about .about-section {
     position: absolute;
     width: 100%;
     height: 100%;
-  }
-  body .main .gridbox.click {
-    height: calc(100vh - 35px);
-    padding-bottom: 0px;
-    padding-top: 0px;
-    mask-image: none;
-    -webkit-mask-image: none;
-  }
-  body .main .gridbox.click .gridframe.click .gridpost.click {
-    display: flex;
-    flex-flow: column;
-  }
-  body .main .gridbox.click .gridframe.click .gridpost.click .pleft {
-    width: 100%;
-    height: fit-content;
-  }
-  body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pinfo {
-    height: 20px;
-  }
-  body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pinfo .pyear {
-    left: 0px;
-  }
-  body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pinfo h1, body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pinfo h2, body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pinfo em {
-    height: fit-content;
-    width: fit-content;
-    margin: 2px 0px 0px 3px;
-  }
-  body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pinfo h2 {
-    margin-top: 2px;
-  }
-  body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pinfo .ptitle {
-    padding: 0px;
-    justify-content: end;
-    align-items: center;
-  }
-  body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pinfo .ptitle h1, body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pinfo .ptitle h2, body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pinfo .ptitle em, body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pinfo .pyear h1, body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pinfo .pyear h2, body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pinfo .pyear em {
-    font: lighter 9px "orbit", "san-serif";
-  }
-  body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pimg {
-    padding-top: 0px;
-  }
-  body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pimg .pimgrest {
-    display: flex;
-    flex-flow: row nowrap;
-    overflow-x: auto;
-    overflow-y: hidden;
-    align-items: end;
-    width: 100vw;
-    height: fit-content;
-    background-color: black;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-  }
-  body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pimg .pimgrest::-webkit-scrollbar {
-    display: none; /* Chrome, Safari, Opera */
-  }
-  body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pimg .pimgrest .pimrestbox {
-    flex: 0 0 100vw;
-    scroll-snap-align: start;
-    position: relative;
-    width: 100vw;
-    height: fit-content;
-    align-self: center;
-  }
-  body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pimg .pimgrest .pimrestbox img {
-    width: 100vw;
-    height: fit-content;
-  }
-  body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pimg .pimgrest .pimrestbox .video {
-    flex: 0 0 auto;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-  }
-  body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pimg .pimgrest .pimrestbox .video iframe {
-    width: 100%;
-    height: 100%;
-    background-color: black;
-  }
-  body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pimg .pimgrest .pimrestbox .imgnumber {
-    height: 15px;
-    width: 15px;
-  }
-  body .main .gridbox.click .gridframe.click .gridpost.click .pleft .pimg .pimgrest .pimrestbox .imgnumber p {
-    font-size: 10px;
-  }
-  body .main .gridbox.click .gridframe.click .gridpost.click .pright {
-    width: 100%;
-    height: auto;
-    overflow-y: auto;
-  }
-  body .main .gridbox.click .gridframe.click .gridpost.click .pright .xbtn {
-    top: 0px;
-    width: 25px;
-    height: 25px;
-  }
-  body .main .gridbox.click .gridframe.click .gridpost.click .pright .xbtn:hover {
-    width: 28px;
-    height: 28px;
-    top: 0px;
-  }
-  body .main .gridbox.click .gridframe.click .gridpost.click .pright .wordblock {
-    padding-bottom: 30px;
-    height: calc(100% - 50px);
-  }
-  body .main .gridbox.click .gridframe.click .gridpost.click .pright .wordblock .kor p, body .main .gridbox.click .gridframe.click .gridpost.click .pright .wordblock .eng p {
-    font-size: 10px;
-  }
-  body .main .gridbox.click .gridframe.click .gridpost.click .pright .info {
-    height: fit-content;
-    padding: 10px 40px;
-    bottom: 0px;
-  }
-  body .main .gridbox.click .gridframe.click .gridpost.click .pright .info .infobox .infoicon {
-    width: 15px;
-  }
-  body .main .gridbox.click .gridframe.click .gridpost.click .pright .info .infobox .infoletter h1 {
-    font-size: 7px;
   }
   body .main .gridbox > .gridframe:nth-of-type(even) {
     margin-top: 0px;

@@ -1,0 +1,33 @@
+[
+    {
+        "titleKor": "세아그룹 2023년 계묘년 연하장",
+        "titleEng": "Seah Group 2023 New Year’s Greeting",
+        "year": "2022",
+        "pleft":[
+
+          "<div class='pimrestbox'><img src='img/post/greetseah/1.jpg' loading='lazy'><div class='imgnumber'><p>1</p></div></div>",
+          "<div class='pimrestbox'><div class='imgnumber'><p>2</p></div><div class='video'><iframe src='https://www.youtube.com/embed/kGuxQfmsPAo?enablejsapi=1&autoplay=1&loop=1&playlist=kGuxQfmsPAo' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen loading='lazy'></iframe></div></div>",
+    
+          "<div class='pimrestbox'><img src='img/post/greetseah/2.jpg' loading='lazy'><div class='imgnumber'><p>3</p></div></div>"
+        ],
+        "backgroundColor": "#666465",
+        "description": [
+          
+          "<div class='kor'><p>세아홀딩스 커뮤니케이션팀 디자인 인턴 사원으로 근무하며, 그룹사 구성원이 사용할 2023년 연하장 및 모션그래픽을 제작하였습니다.</p></div>",
+          "<div class='eng'><p>As a design intern in the Seah Holdings Communication Team, I created the group-wide 2023 New Year’s greeting card and accompanying motion graphics.</p></div>",
+          "<div class='kor'><p>계묘년의 상징 동물인 검은 토끼와 더불어 철강 사업을 전개하는 세아그룹의 특성을 표현하기 위해 채도 낮은 골드, 그레이 위주의 컬러링을 구상하였고, 너무 무겁지 않으면서 명료한 이미지를 연상할 수 있는 무드의 그래픽으로 전개하였습니다. 최종적으로 험한 산맥 위로 희망찬 해가 떠오르고, 검은 토끼가 하늘을 올려다보며 도약을 준비하는 구도로 완성하였습니다.<strong>1</strong></p></div>",
+          "<div class='eng'><p>To reflect both the Black Rabbit—zodiac symbol of the Year of the Rabbit—and Seah Group’s identity as a steel industry leader, I developed a muted gold and gray color palette, balancing the weight of the industrial theme with a sense of clarity and optimism. The final design depicts a hopeful sun rising over rugged mountains, with a black rabbit gazing upward, poised for a leap.<strong>1</strong></p></div>",
+          "<div class='kor'><p>행사 송출 및 메신저 배포용으로 사용될 모션 그래픽<strong>2</strong> 역시 제작하였습니다. 밝아오는 아침과 도약을 준비하는 토끼의 움직임을 표현하였고, 신년 행사 동안 지속적으로 송출될 것을 고려해 장시간 재생되어도 시청에 피로함이 없는 간결한 영상을 진행하였습니다.</p></div>",
+          "<div class='eng'><p>Additionally, I produced a motion graphic<strong>2</strong> version for event broadcasts and messenger distribution. The animation emphasized the morning light breaking through and the rabbit’s motion preparing for its leap, designed to loop seamlessly for extended playback during New Year’s events without viewer fatigue.</p></div>",
+          "<br><div class='kor'><p><strong class=long>185mm x 265mm, 4p (Card). 1920 x 1080px, 0:00:23 (Video).</strong></p></div>",
+          "<div class='kor'><p><strong class=long>ⓒ2022. Seah Holdings 세아홀딩스</strong></p></div>"
+        ],
+        "info": [
+          {
+            "output": "Graphic Designs. Motion Graphics.",
+            "tool": "Illustrator. AfterEffects.",
+            "time": "2 months<br>2022.9 - 2022.10"
+          }
+        ]
+      }
+]

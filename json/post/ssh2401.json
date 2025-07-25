@@ -1,0 +1,34 @@
+[
+    {
+        "titleKor": "소:소한 2024 봄 playlist",
+        "titleEng": "<em>So:Sohan</em> 2024 Spring Playlist",
+        "year": "2024",
+        "pleft":[
+        
+          "<div class='pimrestbox'><img src='img/post/ssh2401/0.jpg' loading='lazy'><div class='imgnumber'><p>1</p></div></div>",
+    
+          "<div class='pimrestbox'><div class='imgnumber'><p>2</p></div><div class='video'><iframe src='https://www.youtube.com/embed/aMWJuV31hR8?enablejsapi=1&autoplay=1&loop=1&playlist=aMWJuV31hR8' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen loading='lazy'></iframe></div></div>",
+    
+          "<div class='pimrestbox'><img src='img/post/ssh2401/2.jpg' loading='lazy'><div class='imgnumber'><p>3</p></div></div>",
+          "<div class='pimrestbox'><img src='img/post/ssh2401/1.jpg' loading='lazy'><div class='imgnumber'><p>4</p></div></div>",
+          "<div class='pimrestbox'><img src='img/post/ssh2401/5.jpg' loading='lazy'><div class='imgnumber'><p>5</p></div></div>",
+    
+          "<div class='pimrestbox'><img src='img/post/ssh2401/3.jpg' loading='lazy'><div class='imgnumber'><p>6</p></div></div>"
+    
+        ],
+        "backgroundColor": "#98cc61",
+        "description": [
+          "<div class='kor'><p>밴드 소모임 <em>소:소한</em>의 <a href='https://youtube.com/playlist?list=PLneSgV9H93vjvIR90qTLaVcrfc3VnlapS&si=crwLU4Azo6Ad-83X' target=blank>2024년 봄 활동 커버 영상</a>을 위한 모션그래픽을 제작하였습니다.</p></div>",
+          "<div class='eng'><p>Motion graphics for the <a href='https://youtube.com/playlist?list=PLneSgV9H93vjvIR90qTLaVcrfc3VnlapS&si=crwLU4Azo6Ad-83X' target=_blank>2024 Spring Cover Playlist</a> of the band club <em>So:Sohan</em>.</p></div>",
+          "<div class='kor'><p>밴드의 캐릭터 <em>소한이</em>와 더불어 각 곡마다 주제가 되는 사물을 선정해 오프닝 및 엔딩 화면의 모티프로 사용하였고, 영상 재생 시 사용자 이탈을 막기 위해 5초 이내의 인트로를 제작하였습니다. 영상 재생 시 지속적으로 보이는 화면 내 요소<strong>5</strong>는 연주 모습을 방해하지 않으면서 조화로운 색감과 형태로 작업했습니다. 오프닝과 엔딩 일러스트 화면을 활용한 티저영상<strong>2</strong>역시 함께 제작하여 업로드하였습니다. 선곡된 곡들의 분위기에 맞추어 전체적으로 따뜻하고 평화로운 무드로 진행하였습니다.</p></div>",
+          "<div class='eng'><p>Along with the band’s mascot character <em>Sohani</em>, symbolic objects for each track were selected to serve as visual motifs for the opening and ending scenes. To minimize viewer drop-off at the beginning of playback, duration of intros is under five seconds. The graphic elements that remain visible throughout the video<strong>5</strong> were designed to harmonize with the footage without distracting from the performance — using balanced colors and forms.Additionally, a teaser video<strong>2</strong> was made featuring the illustrated opening and ending scenes. The overall tone of the video follows a warm and peaceful mood to match the selected tracks.</p></div>"
+        ],
+        "info": [
+          {
+            "output": "Graphic Designs. Motion Graphics",
+            "tool": "Illustrator. AfterEffects.",
+            "time": "1 month<br>2024.05"
+          }
+        ]
+      }
+]
