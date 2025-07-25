@@ -6,6 +6,8 @@
 //font-family: "futura-pt"
 // font-family: "roc-grotesk-extrawide", 
 
+@import "header";
+
 
 $wt:#f2f2f2;
 $gr: #aeaeae;
@@ -28,124 +30,6 @@ body{
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-
-    .header{
-        width: 100%;
-        height: $wh;
-        z-index: 2;
-
-        display: flex;
-        align-items: center;
-        justify-content: start;
-
-        .title{
-            width: 100%;
-            height: 100%;
-
-            display: flex;
-            flex-flow: row;
-            justify-content: space-between;
-            align-items: center;
-            
-            background-color:$yg;
-            padding: 0px 28px 0px 28px;
-            color: $gr;
-
-            .headtxt{
-                width: 100px;
-                height: 100%;
-                display: flex;
-                align-items: center;
-                margin-top: -7px;
-
-            }
-            #works{
-                justify-content: start;
-                ::before{
-                    content: 'nowey.works';
-                    font: 25px/1.3 "orbit", sans-serif;
-                    
-                    letter-spacing: -4px;
-                    text-align: left;              
-                }
-            }
-            #yewon{
-              justify-content: end;
-             
-              ::before{
-                content: 'yewon.lee';
-                font: 25px/1.3 "orbit", sans-serif;
-
-                letter-spacing: -4px;
-                text-align: left;
-            }
-            }
-            .list{
-                width: 600px;
-                height: 60px;
-
-                display: flex;
-                flex-flow: row;
-                justify-content: center;
-                align-items: center;
-                
-                .listtxt{
-                    width: 60px;
-                    height: 30px;
-
-                    display: flex;
-                    justify-content: right;
-                    align-items:center;
-
-                    margin-right: 10px;
-                        h1{
-                        font: normal 12px/1.1  "orbit", sans-serif;
-                        text-align: right;
-                    }
-                }
-                .icon{
-                    width: fit-content;
-                    height: 100%;
-
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    // margin: 0px 0px;
-                    
-                    h1{
-                        font: normal 0px  "orbit", sans-serif;
-                        font-weight: 400;
-                        text-align: right;
-                        opacity: 0;
-                    }
-
-                    &:hover, &.on{
-                        .iconimg{
-                            opacity: 1;
-                            width: 43px;
-                        }
-                    }
-                    &.on{
-                        h1{
-                            opacity: 1;
-                            font-size: 25px;
-                        }
-                    }
-    
-                    .iconimg{
-                        display: flex;
-                        width: 40px;
-                        opacity: 0.5;
-                        img{
-                            width: 100%;
-                        }
-                    }
-
-                }
-
-            }
-        }
-    }
 
     .main{
         width: 100%;
@@ -539,60 +423,7 @@ body{
 
     @media screen and (max-width: 740px){
         overflow: hidden;
-        .header{
-            height: $mh;
-            .title{
-                padding: 0px;
-                .headtxt{
-                    padding-bottom: 4px;
-                    width: 40px;
-                }
-                #works{
-                    width: 0px;
-                    ::before{
-                        content: '';
-                        font: 20px/1.3 "orbit", sans-serif;
-                        letter-spacing: -4px;
-                    }
-                }
-                #yewon{
-                  margin-right: 10px;
-                  ::before{
-                    content: 'y.l';
-                    font: 20px/1.3 "orbit", sans-serif;
-                    letter-spacing: -4px;
-                }
-                }
-                .list{
-                    width: 330px;
-                    height: $mh;
-                    .listtxt{
-                        // display: none;
-                        margin-right: 5px;
-                        h1{
-                            font-size: 9px;
-                        }
-                    }
-                    .icon{
-                        &:hover, &.on{
-                            .iconimg{
-                                width: 32px;
-                            }
-                        }
-                        &.on{
-                            h1{
-                                font-size: 20px;
-                            }
-                        }
-                        .iconimg{
-                            width: 30px;
-                        }
 
-                    }
-                }
-            }
-           
-        }
             .main{
                 width: 100%;
                 height: $mhs;
@@ -630,12 +461,12 @@ body{
                                     }
                                 }
                                 .ptitle{
-                                    padding-right: 2px;
+                                    padding-right: 5px;
                                     justify-content: end;
                                     align-items: center;
                                 }
                                 .pyear{
-                                    left: 2px;
+                                    left: 5px;
                                 }
                             }
                             .pimg{
@@ -714,6 +545,7 @@ body{
                             .wordblock{
                                 padding-bottom: 30px;
                                 height: calc(100% - 50px);
+                                min-height: 200px;
                                 
                                 .kor, .eng{
                                     p{

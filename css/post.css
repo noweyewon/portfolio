@@ -1,5 +1,32 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css");
 @import url("https://use.typekit.net/bto3byu.css");
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css");
+@import url("https://use.typekit.net/bto3byu.css");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  transition: 0.3s;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  outline: 0;
+}
+img {
+  border: 0;
+  pointer-events: none;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -54,7 +81,7 @@ body .header .title .headtxt {
   height: 100%;
   display: flex;
   align-items: center;
-  margin-top: -7px;
+  margin-bottom: 5px;
 }
 body .header .title #works {
   justify-content: start;
@@ -64,6 +91,7 @@ body .header .title #works ::before {
   font: 25px/1.3 "orbit", sans-serif;
   letter-spacing: -4px;
   text-align: left;
+  color: #aeaeae;
 }
 body .header .title #yewon {
   justify-content: end;
@@ -122,6 +150,55 @@ body .header .title .list .icon .iconimg {
 }
 body .header .title .list .icon .iconimg img {
   width: 100%;
+}
+@media screen and (max-width: 740px) {
+  body {
+    overflow: hidden;
+  }
+  body .header {
+    height: 35px;
+  }
+  body .header .title {
+    padding-right: 10px;
+    padding-left: 8px;
+  }
+  body .header .title .headtxt {
+    width: 40px;
+    margin-bottom: 6px;
+  }
+  body .header .title #works ::before {
+    content: "n.l";
+    font: 20px/1.3 "orbit", sans-serif;
+    letter-spacing: -4px;
+  }
+  body .header .title #yewon ::before {
+    content: "y.l";
+    font: 20px/1.3 "orbit", sans-serif;
+    letter-spacing: -4px;
+  }
+  body .header .title .list {
+    width: 330px;
+    height: 35px;
+  }
+  body .header .title .list .listtxt {
+    display: none;
+    font-size: 0px;
+  }
+  body .header .title .list .icon:hover .iconimg, body .header .title .list .icon.on .iconimg {
+    width: 32px;
+  }
+  body .header .title .list .icon.on h1 {
+    font-size: 20px;
+  }
+  body .header .title .list .icon .iconimg {
+    width: 30px;
+  }
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }
 body .main {
   width: 100%;
@@ -435,51 +512,6 @@ body .main .gridbox .gridframe .gridpost .pright .info .infobox .infoletter h1 {
   body {
     overflow: hidden;
   }
-  body .header {
-    height: 35px;
-  }
-  body .header .title {
-    padding: 0px;
-  }
-  body .header .title .headtxt {
-    padding-bottom: 4px;
-    width: 40px;
-  }
-  body .header .title #works {
-    width: 0px;
-  }
-  body .header .title #works ::before {
-    content: "";
-    font: 20px/1.3 "orbit", sans-serif;
-    letter-spacing: -4px;
-  }
-  body .header .title #yewon {
-    margin-right: 10px;
-  }
-  body .header .title #yewon ::before {
-    content: "y.l";
-    font: 20px/1.3 "orbit", sans-serif;
-    letter-spacing: -4px;
-  }
-  body .header .title .list {
-    width: 330px;
-    height: 35px;
-  }
-  body .header .title .list .listtxt {
-    margin-right: 5px;
-  }
-  body .header .title .list .listtxt h1 {
-    font-size: 9px;
-  }
-  body .header .title .list .icon:hover .iconimg, body .header .title .list .icon.on .iconimg {
-    width: 32px;
-  }
-  body .header .title .list .icon.on h1 {
-    font-size: 20px;
-  }
-  body .header .title .list .icon .iconimg {
-    width: 30px;
-  }
   body .main {
     width: 100%;
     height: calc(100vh - 35px);
@@ -517,12 +549,12 @@ body .main .gridbox .gridframe .gridpost .pright .info .infobox .infoletter h1 {
     margin-left: 2px;
   }
   body .main .gridbox .gridframe .gridpost .pleft .pinfo .ptitle {
-    padding-right: 2px;
+    padding-right: 5px;
     justify-content: end;
     align-items: center;
   }
   body .main .gridbox .gridframe .gridpost .pleft .pinfo .pyear {
-    left: 2px;
+    left: 5px;
   }
   body .main .gridbox .gridframe .gridpost .pleft .pimg {
     width: 100%;
@@ -590,6 +622,7 @@ body .main .gridbox .gridframe .gridpost .pright .info .infobox .infoletter h1 {
   body .main .gridbox .gridframe .gridpost .pright .wordblock {
     padding-bottom: 30px;
     height: calc(100% - 50px);
+    min-height: 200px;
   }
   body .main .gridbox .gridframe .gridpost .pright .wordblock .kor p, body .main .gridbox .gridframe .gridpost .pright .wordblock .eng p {
     font-size: 10px;

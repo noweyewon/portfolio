@@ -1,5 +1,32 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css");
 @import url("https://use.typekit.net/bto3byu.css");
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css");
+@import url("https://use.typekit.net/bto3byu.css");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  transition: 0.3s;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  outline: 0;
+}
+img {
+  border: 0;
+  pointer-events: none;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -54,7 +81,7 @@ body .header .title .headtxt {
   height: 100%;
   display: flex;
   align-items: center;
-  margin-top: -7px;
+  margin-bottom: 5px;
 }
 body .header .title #works {
   justify-content: start;
@@ -64,6 +91,7 @@ body .header .title #works ::before {
   font: 25px/1.3 "orbit", sans-serif;
   letter-spacing: -4px;
   text-align: left;
+  color: #aeaeae;
 }
 body .header .title #yewon {
   justify-content: end;
@@ -122,6 +150,55 @@ body .header .title .list .icon .iconimg {
 }
 body .header .title .list .icon .iconimg img {
   width: 100%;
+}
+@media screen and (max-width: 740px) {
+  body {
+    overflow: hidden;
+  }
+  body .header {
+    height: 35px;
+  }
+  body .header .title {
+    padding-right: 10px;
+    padding-left: 8px;
+  }
+  body .header .title .headtxt {
+    width: 40px;
+    margin-bottom: 6px;
+  }
+  body .header .title #works ::before {
+    content: "n.l";
+    font: 20px/1.3 "orbit", sans-serif;
+    letter-spacing: -4px;
+  }
+  body .header .title #yewon ::before {
+    content: "y.l";
+    font: 20px/1.3 "orbit", sans-serif;
+    letter-spacing: -4px;
+  }
+  body .header .title .list {
+    width: 330px;
+    height: 35px;
+  }
+  body .header .title .list .listtxt {
+    display: none;
+    font-size: 0px;
+  }
+  body .header .title .list .icon:hover .iconimg, body .header .title .list .icon.on .iconimg {
+    width: 32px;
+  }
+  body .header .title .list .icon.on h1 {
+    font-size: 20px;
+  }
+  body .header .title .list .icon .iconimg {
+    width: 30px;
+  }
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }
 body .main {
   width: 100%;
@@ -318,8 +395,9 @@ body .main .gridbox > .gridframe:nth-of-type(even) {
 }
 body .main .about {
   width: 100%;
-  height: calc(100vh - 50px);
+  height: 150px;
   z-index: 1;
+  box-sizing: border-box;
   position: absolute;
   top: 50px;
   left: 0px;
@@ -327,92 +405,162 @@ body .main .about {
   display: flex;
   flex-flow: column;
 }
+body .main .about h1, body .main .about h2, body .main .about h3 {
+  font-family: "orbit", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  color: rgb(206, 255, 109);
+}
+body .main .about .about-header {
+  display: flex;
+  height: 110px;
+  width: 100%;
+}
+body .main .about .about-header h1 {
+  font-size: 25px;
+  text-align: left;
+  width: fit-content;
+}
+body .main .about .about-header h1:hover {
+  opacity: 0.6;
+}
+body .main .about .about-header .headerl {
+  margin-right: 30px;
+  width: fit-content;
+}
+body .main .about .about-header .headerr {
+  width: fit-content;
+  height: 110px;
+  position: absolute;
+  right: 30px;
+  padding-top: 4px;
+}
+body .main .about .about-header .headerr h1, body .main .about .about-header .headerr em {
+  font-size: 15px;
+}
+body .main .about .about-header .headerr em {
+  font-style: normal;
+}
+body .main .about .about-sectionbox {
+  display: none;
+}
 body .main .about.on {
   z-index: 3;
   background-color: rgb(206, 255, 109);
+  height: calc(100vh - 50px);
 }
 body .main .about.on h1, body .main .about.on h2, body .main .about.on h3 {
   font-family: "orbit", sans-serif;
   font-weight: 100;
   color: #959595;
 }
-body .main .about.on .about-section {
-  display: flex;
-  width: 700px;
-  overflow: auto;
-}
-body .main .about.on .about-section::-webkit-scrollbar {
+body .main .about.on .about-header .headerr {
   display: none;
 }
-body .main .about.on .about-section .about-cv {
+body .main .about.on .about-sectionbox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  overflow: auto;
+}
+body .main .about.on .about-sectionbox::-webkit-scrollbar {
+  display: none;
+}
+body .main .about.on .about-sectionbox .aboutme {
+  width: calc(100% - 550px);
+  padding: 0px 60px;
+  margin-top: 20px;
+  overflow: auto;
+}
+body .main .about.on .about-sectionbox .aboutme::-webkit-scrollbar {
+  display: none;
+}
+body .main .about.on .about-sectionbox .aboutme .aboutpics {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-flow: column;
+}
+body .main .about.on .about-sectionbox .aboutme .aboutpics img {
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+body .main .about.on .about-sectionbox .about-section {
+  display: flex;
+  width: 500px;
+  padding-top: 20px;
+}
+body .main .about.on .about-sectionbox .about-section .about-cv {
   width: 100%;
   padding-bottom: 30px;
   overflow: auto;
   display: flex;
   flex-flow: column;
 }
-body .main .about.on .about-section .about-cv::-webkit-scrollbar {
+body .main .about.on .about-sectionbox .about-section .about-cv::-webkit-scrollbar {
   display: none;
 }
-body .main .about.on .about-section .about-cv .cvbox {
+body .main .about.on .about-sectionbox .about-section .about-cv .cvbox {
   display: flex;
   flex-flow: column;
   justify-content: start;
   height: fit-content;
 }
-body .main .about.on .about-section .about-cv .cvbox .cvcate {
+body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvcate {
   width: 130px;
   margin-bottom: 20px;
 }
-body .main .about.on .about-section .about-cv .cvbox .cvcate h1 {
+body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvcate h1 {
   font-size: 15px;
   text-align: right;
 }
-body .main .about.on .about-section .about-cv .cvbox .cvinfo {
+body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo {
   display: flex;
   width: 100%;
   justify-content: start;
   align-items: start;
   height: fit-content;
 }
-body .main .about.on .about-section .about-cv .cvbox .cvinfo .date {
+body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .date {
   width: 130px;
   flex-shrink: 0;
   margin-right: 30px;
 }
-body .main .about.on .about-section .about-cv .cvbox .cvinfo .date h3 {
+body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .date h3 {
   font-size: 10px;
   text-align: right;
 }
-body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi {
+body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi {
   height: fit-content;
-  width: 100%;
+  width: 310px;
   display: flex;
   align-items: start;
   justify-content: start;
   flex-flow: column;
   margin-bottom: 30px;
 }
-body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft, body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .inforight {
+body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft, body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .inforight {
   height: fit-content;
   display: flex;
   flex-flow: column;
   justify-content: start;
   align-items: start;
 }
-body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft a h1, body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .inforight a h1 {
+body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft a h1, body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .inforight a h1 {
   text-decoration-line: underline;
   text-decoration-style: dotted;
   text-decoration-color: #959595;
   color: #959595;
 }
-body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft a:visited, body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .inforight a:visited {
+body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft a:visited, body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .inforight a:visited {
   color: #959595;
 }
-body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft a:hover, body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .inforight a:hover {
+body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft a:hover, body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .inforight a:hover {
   opacity: 0.7;
 }
-body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft h1, body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h1 {
+body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft h1, body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h1 {
   font-size: 17px;
   line-height: 1.1;
   display: inline-block;
@@ -420,13 +568,13 @@ body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft
   word-break: break-word;
   overflow-wrap: break-word;
 }
-body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft h1 em, body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h1 em {
+body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft h1 em, body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h1 em {
   display: inline;
   align-items: center;
   font-style: normal;
   margin-left: 2px;
 }
-body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft h1 em::before, body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft h1 em::after, body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h1 em::before, body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h1 em::after {
+body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft h1 em::before, body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft h1 em::after, body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h1 em::before, body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h1 em::after {
   content: "";
   width: 3px;
   height: 3px;
@@ -437,26 +585,26 @@ body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft
   margin-top: -2px;
   vertical-align: super;
 }
-body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft h1 em::after, body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h1 em::after {
+body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft h1 em::after, body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h1 em::after {
   margin-left: -2px;
 }
-body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft h1 em::before, body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h1 em::before {
+body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft h1 em::before, body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h1 em::before {
   margin-right: -2px;
 }
-body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft h2, body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h2 {
+body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft h2, body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h2 {
   font-size: 15px;
   display: inline-block;
   hyphens: auto;
   margin-top: 5px;
   width: 100%;
 }
-body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft h2 em, body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h2 em {
+body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft h2 em, body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h2 em {
   display: inline;
   align-items: center;
   font-style: normal;
   margin: 0px -3px;
 }
-body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft h2 em::before, body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft h2 em::after, body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h2 em::before, body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h2 em::after {
+body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft h2 em::before, body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft h2 em::after, body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h2 em::before, body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h2 em::after {
   content: "";
   width: 3px;
   height: 3px;
@@ -466,103 +614,28 @@ body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft
   margin-left: -2px;
   vertical-align: super;
 }
-body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft h2 em::after, body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h2 em::after {
+body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft h2 em::after, body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h2 em::after {
   margin-left: -10px;
 }
-body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft h2 em::before, body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h2 em::before {
+body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft h2 em::before, body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h2 em::before {
   margin-right: -10px;
 }
-body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft h3, body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h3 {
+body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft h3, body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h3 {
   font-size: 10px;
   margin-top: 0px;
   hyphens: auto;
   word-break: break-word;
 }
-body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft {
+body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft {
   width: 200px;
 }
-body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .inforight {
+body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .inforight {
   width: 310px;
   margin-left: 20px;
-}
-body .main .about h1, body .main .about h2, body .main .about h3 {
-  font-family: "orbit", sans-serif;
-  font-style: normal;
-  font-weight: 100;
-  color: rgb(206, 255, 109);
-}
-body .main .about .about-header {
-  display: flex;
-  margin-bottom: 30px;
-}
-body .main .about .about-header h1 {
-  font-size: 25px;
-  text-align: left;
-  width: 130px;
-}
-body .main .about .about-header h1:hover {
-  opacity: 0.6;
-}
-body .main .about .about-header .headerl {
-  margin-right: 30px;
-}
-body .main .about .about-section {
-  display: none;
 }
 @media screen and (max-width: 700px) {
   body {
     overflow: hidden;
-  }
-  body .header {
-    height: 35px;
-  }
-  body .header .title {
-    padding: 0px;
-  }
-  body .header .title .headtxt {
-    padding-bottom: 4px;
-    width: 40px;
-  }
-  body .header .title #works {
-    justify-content: start;
-    width: 0px;
-  }
-  body .header .title #works ::before {
-    content: "";
-    font: 20px/1.3 "orbit", sans-serif;
-    letter-spacing: -4px;
-    text-align: left;
-    color: #aeaeae;
-  }
-  body .header .title #yewon {
-    justify-content: end;
-    margin-right: 10px;
-  }
-  body .header .title #yewon ::before {
-    content: "y.l";
-    font: 20px/1.3 "orbit", sans-serif;
-    letter-spacing: -4px;
-    text-align: left;
-    color: #aeaeae;
-  }
-  body .header .title .list {
-    width: 330px;
-    height: 35px;
-  }
-  body .header .title .list .listtxt {
-    margin-right: 5px;
-  }
-  body .header .title .list .listtxt h1 {
-    font-size: 9px;
-  }
-  body .header .title .list .icon:hover .iconimg, body .header .title .list .icon.on .iconimg {
-    width: 32px;
-  }
-  body .header .title .list .icon.on h1 {
-    font-size: 20px;
-  }
-  body .header .title .list .icon .iconimg {
-    width: 30px;
   }
   body .main {
     width: 100%;
@@ -582,7 +655,7 @@ body .main .about .about-section {
     height: calc(100vh - 35px);
   }
   body .main .gridbox {
-    height: calc(100vh - 35px - 120px);
+    height: calc(100vh - 35px - 150px);
     padding-top: 15px;
     bottom: 0px;
     padding-bottom: 50px;
@@ -624,6 +697,8 @@ body .main .about .about-section {
   body .main .about {
     top: 35px;
     height: calc(100vh - 35px);
+    width: 100vw;
+    overflow-x: hidden;
   }
   body .main .about .about-header {
     flex-flow: column;
@@ -631,29 +706,69 @@ body .main .about .about-section {
   body .main .about .about-header h1 {
     font-size: 15px;
   }
-  body .main .about.on .about-section .about-cv .cvbox .cvcate {
+  body .main .about .about-header .headerr h1, body .main .about .about-header .headerr em {
+    font-size: 10px;
+  }
+  body .main .about.on {
+    top: 35px;
+    height: calc(100vh - 35px);
+    overflow-x: hidden;
+  }
+  body .main .about.on .about-sectionbox {
+    flex-flow: column;
+    justify-content: start;
+    overflow-y: hidden;
+    align-items: start;
+  }
+  body .main .about.on .about-sectionbox .about-section {
+    height: calc(100vh - 35px - 140px);
+    margin-top: 150px;
+    width: 330px;
+  }
+  body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvcate {
     width: 60px;
     margin-bottom: 10px;
   }
-  body .main .about.on .about-section .about-cv .cvbox .cvcate h1 {
+  body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvcate h1 {
     font-size: 10px;
   }
-  body .main .about.on .about-section .about-cv .cvbox .cvinfo .date {
+  body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .date {
     width: 60px;
     margin-right: 10px;
   }
-  body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h1, body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h2, body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft h1, body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft h2 {
+  body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h1, body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h2, body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft h1, body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft h2 {
     font-size: 12px;
   }
-  body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h3, body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft h3 {
+  body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h3, body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .infoleft h3 {
     margin-top: 0px;
   }
-  body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .inforight {
+  body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .inforight {
     width: 220px;
     margin-top: 5px;
   }
-  body .main .about.on .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h2 {
+  body .main .about.on .about-sectionbox .about-section .about-cv .cvbox .cvinfo .infoindi .inforight h2 {
     width: 100%;
+  }
+  body .main .about.on .about-sectionbox .aboutme {
+    width: 100%;
+    height: 150px;
+    margin-top: 0px;
+    position: absolute;
+    left: 0px;
+    padding-left: 100px;
+    padding-top: 5px;
+  }
+  body .main .about.on .about-sectionbox .aboutme .aboutpics {
+    flex-flow: row;
+    height: 100%;
+    justify-content: start;
+    align-items: start;
+    width: auto;
+  }
+  body .main .about.on .about-sectionbox .aboutme .aboutpics img {
+    width: auto;
+    height: 100%;
+    margin-right: 5px;
   }
 }
 

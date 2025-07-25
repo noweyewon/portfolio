@@ -85,6 +85,11 @@ fetch(`json/post/${projectId}.json`)
       });
     }
 
+    const nl = document.getElementById('works');
+    nl.addEventListener('click', () => {
+        window.location.href = `index.html`;
+    });
+
   })
   .catch(err => {
     console.error('JSON 파일을 불러오지 못했습니다:', err);

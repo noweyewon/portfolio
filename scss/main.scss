@@ -6,6 +6,8 @@
 //font-family: "futura-pt"
 // font-family: "roc-grotesk-extrawide", 
 
+@import "header";
+
 $ws: rgb(207, 207, 207);
 $wt:#f2f2f2;
 $gr: #aeaeae;
@@ -30,124 +32,6 @@ body{
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-
-    .header{
-        width: 100%;
-        height: $wh;
-        z-index: 2;
-
-        display: flex;
-        align-items: center;
-        justify-content: start;
-
-        .title{
-            width: 100%;
-            height: 100%;
-
-            display: flex;
-            flex-flow: row;
-            justify-content: space-between;
-            align-items: center;
-            
-            background-color:$yg;
-            padding: 0px 28px 0px 28px;
-            color: $gr;
-
-            .headtxt{
-                width: 100px;
-                height: 100%;
-                display: flex;
-                align-items: center;
-                margin-top: -7px;
-
-            }
-            #works{
-                justify-content: start;
-                ::before{
-                    content: 'nowey.works';
-                    font: 25px/1.3 "orbit", sans-serif;
-                    
-                    letter-spacing: -4px;
-                    text-align: left;              
-                }
-            }
-            #yewon{
-              justify-content: end;
-             
-              ::before{
-                content: 'yewon.lee';
-                font: 25px/1.3 "orbit", sans-serif;
-
-                letter-spacing: -4px;
-                text-align: left;
-            }
-            }
-            .list{
-                width: 600px;
-                height: 60px;
-
-                display: flex;
-                flex-flow: row;
-                justify-content: center;
-                align-items: center;
-                
-                .listtxt{
-                    width: 60px;
-                    height: 30px;
-
-                    display: flex;
-                    justify-content: right;
-                    align-items:center;
-
-                    margin-right: 10px;
-                        h1{
-                        font: normal 12px/1.1  "orbit", sans-serif;
-                        text-align: right;
-                    }
-                }
-                .icon{
-                    width: fit-content;
-                    height: 100%;
-
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    // margin: 0px 0px;
-                    
-                    h1{
-                        font: normal 0px  "orbit", sans-serif;
-                        font-weight: 400;
-                        text-align: right;
-                        opacity: 0;
-                    }
-
-                    &:hover, &.on{
-                        .iconimg{
-                            opacity: 1;
-                            width: 43px;
-                        }
-                    }
-                    &.on{
-                        h1{
-                            opacity: 1;
-                            font-size: 25px;
-                        }
-                    }
-    
-                    .iconimg{
-                        display: flex;
-                        width: 40px;
-                        opacity: 0.5;
-                        img{
-                            width: 100%;
-                        }
-                    }
-
-                }
-
-            }
-        }
-    }
 
     .main{
         width: 100%;
@@ -387,9 +271,10 @@ body{
 
     .about{
         width: 100%;
-        height: $whs;
+        // height: $whs;
+        height: 150px;
         z-index: 1;
-
+        box-sizing: border-box;
         position: absolute;
         top: $wh;
         left: 0px;
@@ -398,9 +283,56 @@ body{
         display: flex;
         flex-flow: column;
 
+        h1, h2, h3{
+            font-family:"orbit", sans-serif;
+            font-style: normal;
+            font-weight: 100;
+            color: $yg;
+        }
+
+        .about-header{
+            display: flex;
+            height: 110px;
+            // width: fit-content;
+            width: 100%;
+            // margin-bottom: 30px;
+            h1{
+                font-size: 25px;
+                text-align: left;
+                width: fit-content;
+                &:hover{
+                    opacity: .6;
+                }
+            }
+            .headerl{
+                margin-right: 30px;
+                width: fit-content;
+            }
+            .headerr{
+                width: fit-content;
+                height: 110px;
+                position: absolute;
+                right: 30px;
+                padding-top: 4px;
+                h1, em{
+                    font-size: 15px;
+                    
+                }
+                em{
+                    font-style: normal;
+                }
+            }
+
+        }
+
+        .about-sectionbox{
+            display: none;
+        }
+
         &.on{
             z-index: 3;
             background-color: $yg;
+            height: $whs;
         
             h1, h2, h3{
                 font-family:"orbit", sans-serif;
@@ -409,218 +341,235 @@ body{
                 color: $bl;
                 
             }
-            .about-section{
-                display: flex;
-                width: 700px;
-                overflow: auto;
+            .about-header{
+                .headerr{
+                    display: none;
+                }
+            }
 
+            .about-sectionbox{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: space-between;
+
+                overflow: auto;
                 &::-webkit-scrollbar {
                     display: none;
                 }
-                .about-cv{
-                    width: 100%;
-                    
-                    padding-bottom: 30px;
+
+                .aboutme{
+                    width: calc(100% - 550px);
+                    // height: 80%;
+                    padding: 0px 60px;
+                    margin-top: 20px;
+                    // position: absolute;
+                    // right: 50px;
+
                     overflow: auto;
-                    display: flex;
-                    flex-flow: column;
                     &::-webkit-scrollbar {
                         display: none;
                     }
-                    .cvbox{
+                    .aboutpics{
+                        width: 100%;
+                        height: 100px;
                         display: flex;
                         flex-flow: column;
-                        justify-content: start;
-                        height: fit-content;
-                        .cvcate{
-                            width: 130px;
-                            margin-bottom: 20px;
-                            h1{
-                                font-size: 15px;
-                                text-align: right;
-                            }
-                        }    
-                        .cvinfo{
-                            display: flex;
+                        img{
                             width: 100%;
+                            object-fit: contain;
+                            margin-bottom: 10px;
+                        }
+                    }
+                }
+
+         
+                .about-section{
+                    display: flex;
+                    width: 500px;
+   
+                    padding-top: 20px;
+
+                    h1, h2, h3, em{
+                        // display: inline;
+                        // background-color: $yg;
+                    }
+    
+      
+                    .about-cv{
+                        width: 100%;
+                        
+                        padding-bottom: 30px;
+                        overflow: auto;
+                        display: flex;
+                        flex-flow: column;
+                        &::-webkit-scrollbar {
+                            display: none;
+                        }
+                        .cvbox{
+                            display: flex;
+                            flex-flow: column;
                             justify-content: start;
-                            align-items: start;
                             height: fit-content;
-                            .date{
+                            .cvcate{
                                 width: 130px;
-                                flex-shrink: 0;
-                                margin-right: 30px;
-                                h3{
-                                    font-size: 10px;
+                                margin-bottom: 20px;
+                                h1{
+                                    font-size: 15px;
                                     text-align: right;
                                 }
-
-                            }
-                            .infoindi{
-                                height: fit-content;
-                                width: 100%;
-
+                            }    
+                            .cvinfo{
                                 display: flex;
-                                align-items: start;
+                                width: 100%;
                                 justify-content: start;
-                                flex-flow: column;
-
-                                margin-bottom: 30px;
-
-                                .infoleft, .inforight{
-                                    height: fit-content;
-                                    display: flex;
-                                    flex-flow: column;
-                                    justify-content: start;
-                                    align-items: start;
-                                    a{
-                                        h1{
-                                        text-decoration-line: underline;    
-                                        text-decoration-style: dotted;   
-                                        text-decoration-color: $bl;     
-                                        color: $bl;
-                                    }
-                                        &:visited {
-                                        color: $bl;
-                                        }
-                                        &:hover{
-                                            opacity: .7;
-                                        }
-                                    }
-                                    h1{
-                                        font-size: 17px;
-                                        line-height: 1.1;
-                                        display: inline-block;
-                                        white-space: normal;
-                                        word-break: break-word;
-                                        overflow-wrap: break-word;
-                                        em{
-                                            display: inline;              
-                                            align-items: center;
-                                            font-style: normal;
-                                            margin-left: 2px;
-                                        
-                                            &::before, &::after{
-                                            content: "";
-                                            width: 3px;
-                                            height: 3px;
-                                            background-color: $bl; // 원하는 색상
-                                            border-radius: 50%;
-                                            display: inline-block;
-                                            //   position: absolute;
-                                            margin-left: -2px;
-                                            margin-top: -2px;
-
-                                            vertical-align: super;
-                                            }
-                                            &::after{
-
-                                            margin-left: -2px;
-                                            }
-                                            &::before{
-
-                                                margin-right: -2px;
-                                                }
-                                        }
-                                    }
-                                    h2{
-                                        font-size: 15px;
-                                        display: inline-block;
-                                        hyphens: auto;
-                                        margin-top: 5px;
-                                        width: 100%;
-                                        em{
-                                            display: inline;
-                                                                        
-                                            align-items: center;
-                                            // gap: 4px;
-                                            font-style: normal;
-                                            margin: 0px -3px;
-                                            // margin-left: 2px;
-                                        
-                                            &::before, &::after{
-                                            content: "";
-                                            width: 3px;
-                                            height: 3px;
-                                            background-color: $bl; // 원하는 색상
-                                            border-radius: 50%;
-                                            display: inline-block;
-                                            //   position: absolute;
-                                            margin-left: -2px;
-                                        
-                                            vertical-align: super;
-                                            }
-                                            &::after{
-                                        
-                                            margin-left: -10px;
-                                            }
-                                            &::before{
-                                        
-                                                margin-right: -10px;
-                                                }
-                                        }
-                                    }
+                                align-items: start;
+                                height: fit-content;
+                                .date{
+                                    width: 130px;
+                                    flex-shrink: 0;
+                                    margin-right: 30px;
                                     h3{
                                         font-size: 10px;
-                                        // text-align: right;
-                                        margin-top: 0px;
-                                        hyphens: auto;
-                                        word-break: break-word;
-
+                                        text-align: right;
                                     }
+    
                                 }
-
-                                .infoleft{
-                                    width: 200px;
-                                    // height: 50px;
-                                }
-                                .inforight{
+                                .infoindi{
+                                    height: fit-content;
                                     width: 310px;
-                                    margin-left: 20px;
+    
+                                    display: flex;
+                                    align-items: start;
+                                    justify-content: start;
+                                    flex-flow: column;
+    
+                                    margin-bottom: 30px;
+    
+                                    .infoleft, .inforight{
+                                        height: fit-content;
+                                        display: flex;
+                                        flex-flow: column;
+                                        justify-content: start;
+                                        align-items: start;
+                                        a{
+                                            h1{
+                                            text-decoration-line: underline;    
+                                            text-decoration-style: dotted;   
+                                            text-decoration-color: $bl;     
+                                            color: $bl;
+                                        }
+                                            &:visited {
+                                            color: $bl;
+                                            }
+                                            &:hover{
+                                                opacity: .7;
+                                            }
+                                        }
+                                        h1{
+                                            font-size: 17px;
+                                            line-height: 1.1;
+                                            display: inline-block;
+                                            white-space: normal;
+                                            word-break: break-word;
+                                            overflow-wrap: break-word;
+                                            em{
+                                                display: inline;              
+                                                align-items: center;
+                                                font-style: normal;
+                                                margin-left: 2px;
+                                            
+                                                &::before, &::after{
+                                                content: "";
+                                                width: 3px;
+                                                height: 3px;
+                                                background-color: $bl; // 원하는 색상
+                                                border-radius: 50%;
+                                                display: inline-block;
+                                                //   position: absolute;
+                                                margin-left: -2px;
+                                                margin-top: -2px;
+    
+                                                vertical-align: super;
+                                                }
+                                                &::after{
+    
+                                                margin-left: -2px;
+                                                }
+                                                &::before{
+    
+                                                    margin-right: -2px;
+                                                    }
+                                            }
+                                        }
+                                        h2{
+                                            font-size: 15px;
+                                            display: inline-block;
+                                            hyphens: auto;
+                                            margin-top: 5px;
+                                            width: 100%;
+                                            em{
+                                                display: inline;
+                                                                            
+                                                align-items: center;
+                                                // gap: 4px;
+                                                font-style: normal;
+                                                margin: 0px -3px;
+                                                // margin-left: 2px;
+                                            
+                                                &::before, &::after{
+                                                content: "";
+                                                width: 3px;
+                                                height: 3px;
+                                                background-color: $bl; // 원하는 색상
+                                                border-radius: 50%;
+                                                display: inline-block;
+                                                //   position: absolute;
+                                                margin-left: -2px;
+                                            
+                                                vertical-align: super;
+                                                }
+                                                &::after{
+                                            
+                                                margin-left: -10px;
+                                                }
+                                                &::before{
+                                            
+                                                    margin-right: -10px;
+                                                    }
+                                            }
+                                        }
+                                        h3{
+                                            font-size: 10px;
+                                            // text-align: right;
+                                            margin-top: 0px;
+                                            hyphens: auto;
+                                            word-break: break-word;
+    
+                                        }
+                                    }
+    
+                                    .infoleft{
+                                        width: 200px;
+                                        // height: 50px;
+                                    }
+                                    .inforight{
+                                        width: 310px;
+                                        margin-left: 20px;
+                                    }
+    
                                 }
-
+    
                             }
-
+    
                         }
-
                     }
                 }
             }
-        }
-        h1, h2, h3{
-            font-family:"orbit", sans-serif;
-            font-style: normal;
-            font-weight: 100;
-            color: $yg;
-
-          
-            
-        }
-        .about-header{
-            display: flex;
-            margin-bottom: 30px;
-            h1{
-                font-size: 25px;
-                text-align: left;
-                width: 130px;
-                &:hover{
-                    
-                    opacity: .6;
-                }
-            }
-            .headerl{
-                margin-right: 30px;
-
-            }
-            .headerr{
-            }
 
         }
 
 
-.about-section{
-    display: none;
-}
     }
         
     }
@@ -628,78 +577,7 @@ body{
 
     @media screen and (max-width: 700px){
         overflow: hidden;
-            .header{
-                height: $mh;
-                .title{
-                    // justify-content: center;
 
-                    // justify-content: end;
-                    padding: 0px;
-                    .headtxt{
-                        // display: none;
-                        padding-bottom: 4px;
-                        width: 40px;
- 
-                    }
-                    #works{
-                        justify-content: start;
-                        // display: none;
-                        width: 0px;
-
-                    //   margin-left: 10px;
-                        ::before{
-                            content: '';
-                            font: 20px/1.3 "orbit", sans-serif;
-                            // margin-top: -7px;
-                            letter-spacing: -4px;
-                            text-align: left;
-                            color: $gr;
-                        }
-                    }
-                    #yewon{
-                      justify-content: end;
-                      margin-right: 10px;
-                      ::before{
-                        content: 'y.l';
-                        font: 20px/1.3 "orbit", sans-serif;
-                        // margin-top: -4px;
-                        letter-spacing: -4px;
-                        text-align: left;
-                        color: $gr;
-                    }
-                    }
-                    .list{
-                        width: 330px;
-                        height: $mh;
-                        .listtxt{
-                            // display: none;
-                            // font-size: 3px;
-                            margin-right: 5px;
-                            h1{
-                                font-size: 9px;
-                            }
-                        }
-                        .icon{
-                            &:hover, &.on{
-                                .iconimg{
-                                    width: 32px;
-                                }
-                            
-                            }
-                            &.on{
-                                h1{
-                                    font-size: 20px;
-                                }
-                            }
-                            .iconimg{
-                                width: 30px;
-                            }
-
-                        }
-                    }
-                }
-               
-            }
 
             .main{
                 width: 100%;
@@ -718,7 +596,7 @@ body{
                     height: $mhs;
                 }
                 .gridbox{
-                   height: calc($mhs - 120px);
+                   height: calc($mhs - 150px);
                    padding-top: 15px;
                    bottom: 0px;
                    padding-bottom: 50px;
@@ -770,14 +648,40 @@ body{
                 .about{
                     top: $mh;
                     height: $mhs;
+                    width: 100vw;
+                    overflow-x: hidden;
                     .about-header{
                         flex-flow: column;
                         h1{
                             font-size: 15px;
                         }
+
+                        .headerr{
+                            h1,em{
+                                font-size: 10px;
+                            }
+                        }
                     }
                     &.on{
+                        top: $mh;
+                        height: $mhs;
+                        // width: 100vw;
+                        // overflow-x: hidden;
+
+                        overflow-x: hidden;
+                        .about-sectionbox{
+                            flex-flow: column;
+                            justify-content: start;
+                            overflow-y: hidden;
+                            align-items: start;
+                            
                     .about-section{
+                        // position: absolute;
+                        height: calc($mhs - 140px);
+                        // padding-top: 30px;
+                        margin-top: 150px;
+                        width: 330px;
+                        // height: 85%;
                         .about-cv{
                             .cvbox{
                                 .cvcate{
@@ -813,6 +717,31 @@ body{
                             }
                         }
                     }
+                    .aboutme{
+                        width: 100%;
+                        height: 150px;
+                        margin-top: 0px;
+                        // top: 0px;
+
+                        position: absolute;
+                        left: 0px;
+                        padding-left: 100px;
+                        padding-top: 5px;
+                        .aboutpics{
+                            flex-flow: row;
+                            height: 100%;
+                            justify-content: start;
+                            align-items: start;
+                            width: auto;
+                            img{
+                                width: auto;
+                                height: 100%;
+                                margin-right: 5px;
+                            }
+                        }
+                    }
+
+                }
                 }
                 }
             }

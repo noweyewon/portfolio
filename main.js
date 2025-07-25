@@ -2,6 +2,9 @@ const swipertop = document.querySelector('.gridbox');
 const icons = document.querySelectorAll(".icon");
 const listtxt = document.querySelector(".listtxtin");
 const pcount = document.querySelector('.pcount p');
+
+const acount = document.getElementById('aboutcount');
+const acate = document.getElementById('aboutcate');
 const about = document.querySelector(".about");
 const aboutbttn = document.querySelector(".aboutbttn");
 
@@ -18,8 +21,10 @@ fetch('json/index.json')
       });
   
       listtxt.innerText = filter;
+      acate.innerText = filter;
       applyFilter(filter);
       randomPosi();
+      // listtxt.style.opacity = 0;
   
       attachFilterEvents(projects);
     });
@@ -60,6 +65,7 @@ fetch('json/index.json')
     });
   
     pcount.innerText = `(${dataList.length})`;
+    acount.innerText = `(${dataList.length})`;
   
     if (callback) callback();
   }
@@ -76,6 +82,8 @@ function applyFilter(filter) {
     if (shouldShow) count++;
   });
   pcount.innerText = `(${count})`;
+
+  acount.innerText =  `(${count})`;
 }
 
 function attachFilterEvents(projects) {
@@ -89,17 +97,22 @@ function attachFilterEvents(projects) {
 
       icons.forEach(i => i.classList.toggle("on", i === icon));
       listtxt.innerText = filter;
+      acate.innerText = filter;
       applyFilter(filter);
       randomPosi();
     });
 
     icon.addEventListener("mouseenter", () => {
       listtxt.innerText = icon.dataset.filter;
+      // listtxt.style.opacity = 1;
+  
     });
 
     icon.addEventListener("mouseleave", () => {
       const current = document.querySelector(".icon.on");
       if (current) listtxt.innerText = current.dataset.filter;
+      // listtxt.style.opacity = 0;
+    
     });
   });
 }
@@ -137,3 +150,10 @@ aboutbttn.addEventListener('click', () => {
     aboutbttn.innerHTML = `<i class="fas fa-arrow-alt-circle-left"></i>`;
   }
 });
+
+
+const nl = document.getElementById('works');
+nl.addEventListener('click', () => {
+    window.location.href = `index.html`;
+});
+
