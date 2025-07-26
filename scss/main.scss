@@ -650,6 +650,7 @@ body{
                     height: $mhs;
                     width: 100vw;
                     overflow-x: hidden;
+                    z-index: 11;
                     .about-header{
                         flex-flow: column;
                         h1{

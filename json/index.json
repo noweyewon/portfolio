@@ -1,5 +1,19 @@
 [
-    {
+  {
+    "id": "ssh",
+    "titleKor": "<em>소:소한</em> 시각 아이덴티티",
+    "titleEng": "<em>So:sohan</em> Visual Identity",
+    "year": "2021~",
+    "thumb": "img/post/ssh/0.jpg",
+    "thumbClass": "",
+    "backgroundColor": "",
+    "categories": [
+      { "emoji": "img/emoji/2.png", "category": "motion graphics" },
+      { "emoji": "img/emoji/3.png", "category": "branding designs" }
+
+    ]
+  },
+  {
         "id": "diwf",
         "titleKor": "<em>대전국제와인페스티벌</em> 리브랜딩",
         "titleEng": "<em>DIWF</em> Rebranding Project",
@@ -129,7 +143,7 @@
         "categories": [
         { "emoji": "img/emoji/2.png", "category": "motion graphics" }
         ],
-        "thumb": "img/post/waf/1.png",
+        "thumb": "img/post/waf/3.png",
         "thumbClass": ""
       },
       {
