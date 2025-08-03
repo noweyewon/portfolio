@@ -28,6 +28,20 @@
         ]
       },
       {
+        "id":"drnr",
+        "titleKor": "<em>들락날락</em> 아이덴티티&홍보물",
+        "titleEng": "<em>Deulrock/nalrock</em> Identity & Collaterals",
+        "year": "2024",
+        "thumb": "img/post/drnr/0.jpg",
+        "thumbClass": "",
+        "backgroundColor": "",
+        "categories": [
+          { "emoji": "img/emoji/1.png", "category": "graphic designs" },
+          { "emoji": "img/emoji/2.png", "category": "motion graphics" },
+          { "emoji": "img/emoji/4.png", "category": "editorial designs" }
+        ]
+      },
+      {
         "id": "ssh2401",
         "titleKor": "소:소한 2024 봄 playlist",
         "titleEng": "<em>So:Sohan</em> 2024 Spring Playlist",
@@ -135,6 +149,19 @@
         ]
       },
       {
+        "id":"mukbang",
+        "titleKor": "Today I Ate:",
+        "titleEng": "",
+        "year": "2023",
+        "thumb": "img/post/mukbang/1.jpg",
+        "thumbClass": "",
+        "backgroundColor": "#000000",
+        "categories": [
+          { "emoji": "img/emoji/1.png", "category": "graphic designs" },
+          { "emoji": "img/emoji/2.png", "category": "motion graphics" }
+        ]
+      },
+      {
         "id":"waf",
         "titleKor": "<em>When A Fire Starts To Burn</em> 모션 타이포",
         "titleEng": "Motion Typography",
@@ -173,16 +200,29 @@
       {
         "id":"hwisi",
         "titleKor": "휘어진 시간",
-        "titleEng": "Croooooked Time",
+        "titleEng": "Tw)sted T)me",
         "year": "2021",
-        "thumb": "img/post/hwisi/0.png",
+        "thumb": "img/post/hwisi/00.jpg",
         "thumbClass": "on",
-        "backgroundColor": "#0000ff",
+        "backgroundColor": "#000000",
         "categories": [
           { "emoji": "img/emoji/1.png", "category": "graphic designs" },
           { "emoji": "img/emoji/2.png", "category": "motion graphics" },
           { "emoji": "img/emoji/4.png", "category": "editorial designs" }
     
+        ]
+      },
+      {
+        "id":"sio",
+        "titleKor": "<em>Shake It Out</em> 모션그래픽",
+        "titleEng": "Motion Graphics",
+        "year": "2024",
+        "thumb": "img/post/sio/00.jpg",
+        "thumbClass": "",
+        "backgroundColor": "#000000",
+        "categories": [
+          { "emoji": "img/emoji/1.png", "category": "graphic designs" },
+          { "emoji": "img/emoji/2.png", "category": "motion graphics" }
         ]
       },
       {
@@ -193,7 +233,6 @@
         "thumb": "img/post/woongza/0.png",
         "thumbClass": "",
         "categories": [
-          { "emoji": "img/emoji/2.png", "category": "motion graphics" },
           { "emoji": "img/emoji/3.png", "category": "branding designs" }
     
         ],

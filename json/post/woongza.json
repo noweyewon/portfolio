@@ -5,19 +5,39 @@
     "year": "2020",
     "pleft":[
     
-      "<div class='pimrestbox'><img src='img/post/woongza/1.png' loading='lazy'><div class='imgnumber'><p>1</p></div></div>",  "<div class='pimrestbox'><div class='video'><iframe src='https://www.youtube.com/embed/utB6on6_Gvk?autoplay=1&loop=1&playlist=utB6on6_Gvk' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen loading='lazy'></iframe></div><div class='imgnumber'><p>1</p></div></div>",
-      "<div class='pimrestbox'><img src='img/post/woongza/2.png' loading='lazy'><div class='imgnumber'><p>2</p></div></div>",
-      "<div class='pimrestbox'><img src='img/post/woongza/3.jpg' loading='lazy'><div class='imgnumber'><p>2</p></div></div>"
+      "<div class='pimrestbox'><img src='img/post/woongza/1.png' loading='lazy'><div class='imgnumber'><p>1</p></div></div>",
+      "<div class='pimrestbox'><img src='img/post/woongza/3.png' loading='lazy'><div class='imgnumber'><p>2</p></div></div>",
+      "<div class='pimrestbox'><img src='img/post/woongza/0.jpg' loading='lazy'><div class='imgnumber'><p>3</p></div></div>",
+      "<div class='pimrestbox'><img src='img/post/woongza/1.jpg' loading='lazy'><div class='imgnumber'><p>4</p></div></div>"
     ],
     "backgroundColor": "#1bc5db",
     "description": [
-      "<div class='kor'><p>안타깝게도 여기도 빈 곳이다. 김말이 바버</p></div>"
+      "<div class='kor'><p>애견 용품 브랜드 <em>웅자</em>의 리브랜딩 방안을 구상해 본 개인 프로젝트입니다.</p></div>",
+      "<div class='eng'><p>This is a self-initiated branding project for the <em><a href='https://www.djwinefair.com/' target=blank>Daejeon International Wine Festival</a></em>, a local event hosted by the city of Daejeon since 2012.</p></div>",
+      "<div class='kor'><p><em>웅자</em>는 설립자 강준배 대표가 1998년 입양한 강아지 <em>웅자</em>가 TV 프로그램 출연으로 인기를 얻은 것을 계기로 설립된 반려견 용품 브랜드입니다. 합리적인 가격대와 이미 확보된 호감도, 인지도를 바탕으로 시작해, 웅자의 피부병 치료 경험에서 착안한 피부 질환 전용 애견 샴푸를 출시하는 등 견고한 브랜드 스토리를 갖고 있었습니다.<strong>4</strong></p></div>",
+
+      "<div class='eng'><p><em>Woongja</em> is a pet products brand founded by Kang Jun-bae, inspired by his adopted dog of the same name, <em>Woongja,</em> who gained popularity after appearing on a TV show in 1998. Launched with an accessible price point and strong initial recognition and goodwill, the brand was built on a compelling story—such as the release of a medicated shampoo inspired by Woongja’s own skin condition treatment.<strong>4</strong></p></div>",
+
+      "<div class='kor'><p>그러나 TV 출연으로 형성된 인기와 별개로 브랜드 자체 메시지가 부재했고, 그에 따라 로고·컬러·폰트 등 시각 요소 역시 통일성 없이 다양하게 사용되었습니다. 시간이 경과하며 강아지 <em>웅자</em>와 브랜드 <em>웅자</em> 모두의 인지도가 약화되고, 특히 초기 고객층의 연령대가 변화했음에도 전략적인 포지션 전환이 이루어지지 않아, 경쟁 브랜와의 차별성이 약화되었습니다.</p></div>",
+
+      "<div class='eng'><p>However, the brand was built upon the popularity of the dog itself rather than a clear brand narrative, resulting in inconsistent use of logos, colors, and typography. Over time, recognition of both the dog <em>Woongja</em> and the <em>Woongja</em> brand faded. The initial target audience, younger consumers who watched the TV show, aged out, yet no significant strategic repositioning took place, leaving the brand undifferentiated in pricing, storytelling, and product offerings.</p></div>",
+
+      "<div class='kor'><p>이에 따라 브랜드 스토리를 감성적이고 친숙하며 밝은 이미지로 재해석하고, 질적·시각적 퀄리티를 높이는 새로운 포지셔닝을 설정했습니다. 브랜드 메시지는 <em>언제나 우리 곁을 지키는 웅자</em>로 정립하였으며, 실제 강아지 <em>웅자</em>와 설립자의 관계성, 브랜드와 고객, 반려견과 반려인의 연결성을 강조했습니다. 또한 다양한 피부 질환, 식성, 연령대를 아우르는 제품군 확장을 통해 <em>강아지의 모든 순간과 모습에 함께하는 웅자</em>라는 방향성을 제시했습니다.</p></div>",
+
+
+      "<div class='eng'><p>To address this, I came up with a new positioning: carrying forward its warm and friendly legacy while elevating its quality and visual identity. The brand message was redefined as <em>Always by our side</em>, emphasizing the bond between the founder and Woongja, the connection between brand and customer, and the companionship of pets and their owners. The product line was also expanded to include solutions for various skin conditions, dietary needs, and age groups, embodying the idea of <em>Woongja for every moment, every dog.</em></p></div>",
+
+"<div class='kor'><p>이를 반영하여, 설립자와 웅자의 관계와 브랜드의 가치를 담은 새로운 로고를 제작했으며, 웅자의 이니셜을 결합해 반려견과 반려인의 연결을 상징하도록 했습니다. 또한 다양한 강아지의 개성과 상태를 표현하는 색상과 형태의 그래픽 모티프를 설정해, 브랜드 컬러와 비주얼 아이덴티티 전반에 활용했습니다.<strong>3</strong></p></div>",
+
+ "<div class='eng'><p>This vision informed the creation of a new logo that symbolized these connections, incorporating Woongja’s initials to highlight the relationship between pets and their owners. Additionally, a graphic motif inspired by the diversity of dogs’ traits and conditions was developed, establishing a refined color palette and visual system applied across the entire brand identity.<strong>3</strong></p></div>"
+
     ],
+
     "info": [
       {
-        "output": "Logo Design. Brand Manual. Applications. Motion Graphics",
-        "tool": "Illustrator. Photoshop. AfterEffects.",
-        "time": "3 months<br>2021.09 - 2021.12"
+        "output": "Logo Design. Applications.",
+        "tool": "Illustrator. Photoshop.",
+        "time": "1 month<br>2020.09"
       }
     ]
   }

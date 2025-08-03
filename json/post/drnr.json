@@ -1,0 +1,38 @@
+[
+    {
+        "titleKor": "<em>들락날락</em> 아이덴티티&홍보물",
+        "titleEng": "<em>Deulrock/nalrock</em> Identity & Collaterals",
+        "year": "2024",
+        "pleft":[
+        
+          "<div class='pimrestbox'><img src='img/post/drnr/0.gif' loading='lazy'><div class='imgnumber'><p>1</p></div></div>",
+          "<div class='pimrestbox'><div class='imgnumber'><p>2</p></div><div class='video short'><iframe src='https://www.youtube.com/embed/xc95ePFYyG4?enablejsapi=1&autoplay=1&muted=1' title='YouTube video player' frameborder='0' allow='accelerometer; clipboard-write; encrypted-media; autoplay; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen loading='lazy'></iframe></div></div>",
+    
+          "<div class='pimrestbox'><img src='img/post/drnr/1.gif' loading='lazy'><div class='imgnumber'><p>3</p></div></div>",
+          "<div class='pimrestbox'><img src='img/post/drnr/2.jpg' loading='lazy'><div class='imgnumber'><p>4</p></div></div>",
+          "<div class='pimrestbox'><img src='img/post/drnr/3.jpg' loading='lazy'><div class='imgnumber'><p>5</p></div></div>",
+    
+          "<div class='pimrestbox'><div class='imgnumber'><p>6</p></div><div class='video'><iframe src='https://www.youtube.com/embed/lGctduJeQZI?enablejsapi=1&loop=1&playlist=lGctduJeQZI' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; muted; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen loading='lazy'></iframe></div></div>"
+    
+        ],
+        "backgroundColor": "#888a8f",
+        "description": [
+          "<div class='kor'><p>연합 밴드 공연 <a href='https://dudoong.com/events/347' target=blank><em>들락날락</em></a>의 공연 주최팀에 소속되어 디자인 담당으로 시각 아이덴티티 및 모션그래픽, 홍보물을 작업하였습니다.</p></div>",
+          "<div class='eng'><p>As part of the organizing team for the joint band concert <a href='https://dudoong.com/events/347' target=blank><em>Deulrock/nalrock</em></a>, I was responsible for visual identity, motion graphics, and collaterals.</p></div>",
+          "<div class='kor'><p>서로 다른 장르를 연주하는 세 밴드의 공연인 점, 그리고 음절에 <em>rock</em>이 포함되어있는 점에서 <em>장소나 상태를 자주 오가며 변화하는 모습</em>을 연상하는 단어 <em>들락날락</em>을 공연 제목 및 컨셉에 활용할 것을 구상하였습니다.</p></div>",
+          "<div class='eng'><p>The concert featured three bands with distinct genres, and the title <em>Deulrock/nalrock<strong class=long>In and out</strong></em>—a Korean phrase evoking the idea of moving back and forth between places or states—was chosen for its dynamic nuance and its phonetic connection to <em>rock</em>.</p></div>",
+          "<div class='kor'><p>세 밴드가 연속적으로 공연을 하고, 각 팀마다 서로 다른 음악 스타일을 넘나드는 점에서 서로 다른 풍경의 방을 순차적으로 <em>들락날락</em>하는 것을 연상하는 아이덴티티를 구상했습니다. 방과 문이 그려져 있는 블루프린트와 도면 등의 요소를 차용하면서, rock의 느낌 역시 함께 연상할 수 있는 강렬하고 날카로운 인상의 그래픽 요소와 아이덴티티<strong>1</strong><strong>3</strong>를 제작하였고, 각 팀의 드레스코드 색상인 갈색, 빨간색, 베이지색 역시 도면 위의 요소처럼 활용하였습니다.</p></div>",
+          "<div class='eng'><p>The identity concept visualized the experience of moving sequentially through different rooms, symbolizing the continuous performances and the shifting musical styles of the three bands. Blueprint and architectural drawing elements were incorporated to express this <em>room-hopping</em> idea, combined with bold, sharp graphic motifs that evoke the energy of rock music<strong>1</strong><strong>3</strong>. Each band’s dress code colors—brown, red, and beige—were also integrated as design accents, similar to annotation details on a blueprint.</p></div>",
+          "<div class='kor'><p>제작한 아이덴티티를 활용하여 포스터, 리플렛, 스티커 등의 홍보물<strong>4</strong>을 디자인 및 발주하였고, <a href='https://youtube.com/playlist?list=PLneSgV9H93vjf0G9f8KGO5pOYymWQSqcE&feature=shared' target=blank>유튜브 업로드용 모션그래픽</a><strong>5</strong><strong>6</strong> 역시 추가적으로 제작하였습니다.</p></div>",
+          "<div class='eng'><p>Based on this identity, I designed and produced posters, leaflets, and stickers<strong>4</strong>, and also created motion graphics for <a href='https://youtube.com/playlist?list=PLneSgV9H93vjf0G9f8KGO5pOYymWQSqcE&feature=shared' target=blank>YouTube uploads</a><strong>5</strong><strong>6</strong>.</p></div>",
+          "<br><div class='kor'><p><strong class=long>A3(poster). 5×7, double-sided(leaflet). 85mmx40mm(sticker)</strong></p></div>"
+        ],
+        "info": [
+          {
+            "output": "Identity Design. Poster. Leaflet. Sticker. Motion Graphics",
+            "tool": "Illustrator. AfterEffects. Photoshop",
+            "time": "2 months<br>2024.08 – 2024.09"
+          }
+        ]
+      }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "titleKor": "Today I Ate:",
+        "titleEng": "",
+        "year": "2023",
+        "pleft":[
+        
+          "<div class='pimrestbox'><img src='img/post/mukbang/3.jpg' loading='lazy'><div class='imgnumber'><p>1</p></div></div>",
+          "<div class='pimrestbox'><div class='imgnumber'><p>2</p></div><div class='video short'><iframe src='https://www.youtube.com/embed/6foxoY6fe2U?enablejsapi=1&autoplay=1&muted=1&loop=1&playlist=6foxoY6fe2U' title='YouTube video player' frameborder='0' allow='accelerometer; clipboard-write; encrypted-media; autoplay; muted; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen loading='lazy'></iframe></div></div>",
+    
+          "<div class='pimrestbox'><img src='img/post/mukbang/2.jpg' loading='lazy'><div class='imgnumber'><p>3</p></div></div>"
+
+        ],
+        "backgroundColor": "#000ef3",
+        "description": [
+          "<div class='kor'><p>약 3개월 간 그날 그날 먹은 메뉴를 10초 이내의 <a href= https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MjQxNDcwMDY3MDkxNjEw?story_media_id=3071391595922182052&igsh=MjdpMDJsY2h1YjEx' target=blank>짧은 일러스트 애니메이션</a>으로 제작했습니다. 꾸준한 작업에 의의를 두고 각 영상을 하루 동안 완성시킬 수 있는 퀄리티로 조정하며 작업하였고, 밝은 그래픽과 숏폼 컨텐츠에 적절한 레이아웃으로 구성하였습니다.</p></div>",
+          "<div class='eng'><p>Created <a href= https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MjQxNDcwMDY3MDkxNjEw?story_media_id=3071391595922182052&igsh=MjdpMDJsY2h1YjEx' target=blank>short illustrated</a> animations under 10 seconds, documenting what I ate each day for about three months. The focus was on consistency, so the quality was adjusted to be achievable within a single day for each video, and designed them with bright graphics and layouts suited for short-form content.</p></div>",
+          "<br><div class='kor'><p><strong class=long>1440 × 1440px, each approx. 0:10</strong></p></div>"
+        ],
+        "info": [
+          {
+            "output": "Identity Design. Poster. Leaflet. Sticker. Motion Graphics",
+            "tool": "Illustrator. AfterEffects. Photoshop",
+            "time": "2 months<br>2024.08 – 2024.09"
+          }
+        ]
+      }
+]

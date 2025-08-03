@@ -1,0 +1,37 @@
+[
+    {
+        "titleKor": "<em>들락날락</em> 시각 아이덴티티",
+    "titleEng": "<em>Deulrock/nalrock</em> Visual Identity",
+    "year": "2024",
+        "pleft":[
+        
+          "<div class='pimrestbox'><img src='img/post/ssh2402/0.gif' loading='lazy'><div class='imgnumber'><p>1</p></div></div>",
+    
+
+          "<div class='pimrestbox'><div class='imgnumber'><p>2</p></div><div class='video short'><iframe src='https://www.youtube.com/embed/xc95ePFYyG4?enablejsapi=1&autoplay=1&muted=1&loop=1&playlist=xc95ePFYyG4' title='YouTube video player' frameborder='0' allow='accelerometer; clipboard-write; encrypted-media; autoplay; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen loading='lazy'></iframe></div></div>",
+    
+          "<div class='pimrestbox'><img src='img/post/ssh2402/1.gif' loading='lazy'><div class='imgnumber'><p>3</p></div></div>",
+          "<div class='pimrestbox'><img src='img/post/ssh2402/2.jpg' loading='lazy'><div class='imgnumber'><p>4</p></div></div>",
+          "<div class='pimrestbox'><img src='img/post/ssh2402/3.jpg' loading='lazy'><div class='imgnumber'><p>5</p></div></div>",
+    
+          "<div class='pimrestbox'><div class='imgnumber'><p>6</p></div><div class='video'><iframe src='https://www.youtube.com/embed/lGctduJeQZI?enablejsapi=1&loop=1&playlist=lGctduJeQZI' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; muted; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen loading='lazy'></iframe></div></div>"
+    
+        ],
+        "backgroundColor": "#ebebeb",
+        "description": [
+          "<div class='kor'><p><a href='https://www.youtube.com/@so-sohan9734/videos' target=blank><em>소소한</em></a>은 커버 영상 업로드 위주로 활동하며 분기 별로 다양한 무드의 곡을 연주하는 밴드 소모임입니다. 사전에 사용되고 있던 알파벳 <em>S</em> 와 <em>O</em>로 구성된 캐릭터 <em>소한이</em>를 시각적으로 더 명확한 형태로 재구성함과 동시에, 다양한 무드의 음악과 어플리케이션에 잘 어우러질 수 있는 정제된 형태로 디자인하였습니다. 즐거운 활동을 지향하는 취미 활동 소모임의 분위기에 맞추어 경쾌한 무드로 진행하였습니다.<strong>3</strong></p></div>",
+          "<div class='eng'><p><a href='https://www.youtube.com/@so-sohan9734/videos' target=blank><em>So:sohan</em></a> is a small band club mainly focused on uploading cover videos and performing songs of diverse moods each quarter. The existing character “Sohan-i,” originally based on the alphabet letters S and O, was redesigned into a clearer and more refined visual form that harmonizes well with various musical moods and applications. The overall mood was kept light and lively to match the spirit of a hobby-oriented band club that values enjoyable activity.<strong>3</strong></p></div>",
+          "<div class='kor'><p>로고 리디자인에 더불어 영상 전반에 사용될 그래픽 소스와 모션 그래픽/컷편집 역시 2021년부터 지속적으로 진행하였습니다. 영상 오프닝 및 엔딩, sns용 티징 영상 및 이미지, 유튜브 대문 이미지<strong>4</strong> 등을 각 분기 별 선곡의 무드에 맞춰 작업하였습니다.</p></div>",
+          "<div class='eng'><p>In addition to the logo redesign, I have continuously produced graphic assets, motion graphics, and video editing since 2021. These include opening and ending sequences, teaser videos and images for social media, and YouTube banner images<strong>4</strong>, each designed to reflect the seasonal mood of the selected tracks.</p></div>",
+          "<div class='kor'><p>아이덴티티를 소개하는 모션그래픽<strong>2</strong> 역시 추가적으로 제작하였습니다.</p></div>",
+          "<div class='eng'><p>A motion graphic<strong>2</strong> introducing the identity itself was also produced as part of the project.</p></div>"
+        ],
+        "info": [
+          {
+            "output": "Logo Design, Graphic Designs. Motion Graphics",
+            "tool": "Illustrator. AfterEffects. Photoshop",
+            "time": "Ongoing Project<br>2021.12 – Present"
+          }
+        ]
+      }
+]

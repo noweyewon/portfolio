@@ -1,0 +1,33 @@
+[
+      {
+        "titleKor": "<em>Shake It Out</em> 모션그래픽",
+        "titleEng": "Motion Graphics",
+        "year": "2024",
+    "pleft":[
+      "<div class='pimrestbox'><img src='img/post/sio/00.jpg' loading='lazy'><div class='imgnumber'><p>1</p></div></div>",
+
+
+
+      "<div class='pimrestbox'><div class='imgnumber'><p>2</p></div><div class='video short'><iframe src='https://www.youtube.com/embed/g-g6btN0UwM?enablejsapi=1&autoplay=1&muted=1&loop=1&playlist=g-g6btN0UwM' title='YouTube video player' frameborder='0' allow='accelerometer; clipboard-write; encrypted-media; autoplay; muted; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen loading='lazy'></iframe></div></div>",
+
+      "<div class='pimrestbox'><img src='img/post/sio/1.gif' loading='lazy'><div class='imgnumber'><p>3</p></div></div>",
+      "<div class='pimrestbox'><img src='img/post/sio/1.jpg' loading='lazy'><div class='imgnumber'><p>4</p></div></div>",
+      "<div class='pimrestbox'><img src='img/post/sio/2.jpg' loading='lazy'><div class='imgnumber'><p>5</p></div></div>"
+    ],
+    "backgroundColor": "#666666",
+    "description": [
+      "<div class='kor'><p>Florence + The Machine의 노래 <em>Shake It Out</em>을 바탕으로 진행한 모션 타이포그래피입니다. 노래의 하이라이트 부분을 50초 가량으로 기승전결이 드러나게 편집하고, A형 종이와 동일한 비율의 포스터를 연상시키는 모션그래픽을 구성했습니다. 실사 영상을 제외한 모든 그래픽 소스<strong>1</strong><strong>3</strong>를 제작하였습니다. </p></div>",
+      "<div class='eng'><p>a motion typography piece based on Florence + The Machine’s song <em>Shake It Out.</em> The song’s highlight section was edited into a 50-second sequence with a clear narrative arc, and the motion design was composed to evoke the proportions and layout of an A-series poster. All graphic elements<strong>1</strong><strong>3</strong>, excluding live-action footage, were created from scratch.</p></div>",
+      "<div class='kor'><p><em>지난 날의 후회에서 벗어나자</em>는 내용에서 착안해 <em>빛</em>과 <em>그림자</em> 를 키워드로 잡고, 검정에서 빨강, 이후 흰색으로 점멸하는 배경 위에 타이포그래피를 구성해 제작하였습니다. <em>내 안의 악마를 발견했지만 모두 안고 살아가겠다</em>는 가사에 맞춰 검정과 하양, 파랑과 빨강으로 구분 되었던 것들이 결말부엔 한 데 섞이도록 연출하였습니다.</p></div>",
+      "<div class='eng'><p>Drawing inspiration from the song’s theme of <em>breaking free from past regrets,</em> the keywords <em>Light</em> and <em>Shadow</em> shaped the visual direction. The typography was layered over a strobing background transitioning from black to red to white. Reflecting the lyric <em>found the devil in me ... I'm gonna let it happen to me</em>, previously separated elements in black and white, blue and red, ultimately merge together in the final sequence.</p></div>",
+      "<br><div class='kor'><p><strong class=long>1440x2036px, 00:55</strong></p></div>"
+    ],
+    "info": [
+      {
+        "output": "Graphic Designs. Motion Graphics.",
+        "tool": "Illustrator. AfterEffects.",
+        "time": "2 months<br>2024.01 - 2024.02"
+      }
+    ]
+  }
+]

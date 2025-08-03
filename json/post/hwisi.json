@@ -1,20 +1,49 @@
 [
     {
         "titleKor": "휘어진 시간",
-        "titleEng": "Croooooked Time",
+        "titleEng": "Tw)sted T)me",
         "year": "2021",
-        "backgroundColor": "#0000ff",
+        "backgroundColor": "#000000",
         "pleft":[
         
-          "<div class='pimrestbox'><img src='img/post/hwisi/1.png' loading='lazy'><div class='imgnumber'><p>1</p></div></div>",  "<div class='pimrestbox'><div class='videoshort'><iframe rc='https://www.youtube.com/embed/utB6on6_Gvk?autoplay=1&loop=1&playlist=utB6on6_Gvk' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen loading='lazy' class='short' ></iframe></div><div class='imgnumber'><p>1</p></div></div>",
-          "<div class='pimrestbox'><img src='img/post/hwisi/2.png' loading='lazy'><div class='imgnumber'><p>2</p></div></div>",
-          "<div class='pimrestbox'><img src='img/post/hwisi/3.png' loading='lazy'><div class='imgnumber'><p>2</p></div></div>"
+          "<div class='pimrestbox'><img src='img/post/hwisi/0.jpg' loading='lazy'><div class='imgnumber'><p>1</p></div></div>",  
+          
+          "<div class='pimrestbox'><img src='img/post/hwisi/6.jpg' loading='lazy'><div class='imgnumber'><p>2</p></div></div>",
+          "<div class='pimrestbox'><img src='img/post/hwisi/1.jpg' loading='lazy'><div class='imgnumber'><p>3</p></div></div>",
+          "<div class='pimrestbox'><img src='img/post/hwisi/2.jpg' loading='lazy'><div class='imgnumber'><p>4</p></div></div>",
+          "<div class='pimrestbox'><img src='img/post/hwisi/3.jpg' loading='lazy'><div class='imgnumber'><p>5</p></div></div>",
+          "<div class='pimrestbox'><img src='img/post/hwisi/4.jpg' loading='lazy'><div class='imgnumber'><p>6</p></div></div>",
+          "<div class='pimrestbox'><div class='imgnumber'><p>7</p></div><div class='video'><iframe src='https://www.youtube.com/embed/SX0AY2FhG4A?enablejsapi=1&muted=1&' title='YouTube video player' frameborder='0' allow='accelerometer; clipboard-write; encrypted-media; muted; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen loading='lazy'></iframe></div></div>"
         ],
         "description": [
-          "<div class='kor'><p>김말이 안뇽? 여긴 빈 곳이다. 바보바보뽀부</p></div>"],
+          "<div class='kor'><p><em>휘어진 시간</em>은 판데믹 이후의 삶의 변화를 묘사한 sf 인포그래픽 책입니다.</p></div>",
+          "<div class='eng'><p><em>Tw)sted T)me</em> is an SF infographic book illustrating the changes in life after the pandemic.</p></div>",
+
+          "<div class='kor'><p>작업 당시 아직 일상의 큰 부분으로 존재하던 판데믹 사태에서 우리가 경험한 좌표 상실감, 과거의 일상이 유물화되고 미래의 일들은 취소되는 불확실함, 시공간에 구애받지 않고 가상의 공간에서 세상을 접하는 혼란을 담고자 했습니다. <em>주변 물체의 중력에 의해 시공간이 휘어 시간이 느려지고, 각자의 환경에 따라 시간은 다른 속도로 흐른다</em>는 <em>일반 상대성 이론</em>과, 코로나19 이전으로 돌아갈 수 없다는 현실을 받아들이고 새로운 표준을 정립하는 <em>New Reality</em> 개념을 책을 기획하는 단계에서 주요하게 참고했습니다.</p></div>",
+
+          "<div class='eng'><p>It reflects the loss of coordinates we experienced during the pandemic—where past events became relics, familiar everyday life was no longer accessible, and future plans dissolved into uncertainty—as well as the confusion of encountering the world in virtual, spaceless environments unrestricted by time and place. During the planning stage, the project drew inspiration from the General Theory of Relativity, which states that mass curves spacetime and slows the flow of time, with each individual’s time flowing differently depending on their environment, and from the idea of a <em>New Reality</em>—accepting that we cannot return to the pre-COVID-19 world and must establish new standards.</p></div>",
+
+          "<div class='kor'><p>최종적으로 2020년을 코로나라는 질병이 태양처럼 큰 질량으로 일상에 존재해 시공간을 휘어버린 <em>과거도 미래도 없는, 경로 이탈된</em> 시간축으로 설정하고, 그곳에 사고로 떨어진 여행자들을 위한 <em>sf 설정의 가상의 가이드라인</em>을 제작했습니다.<strong>2</strong></p></div>",
+
+          "<div class='eng'><p>The final concept frames the year 2020 as a <em>detoured timeline, devoid of past or future</em> warped by the massive gravitational presence of the pandemic, much like a star bending spacetime. For those who accidentally fell into this anomalous timeline, the book presents a fictional SF-style traveler’s guide.<strong>2</strong></p></div>",
+
+          "<div class='kor'><p>인트로<strong>4</strong>에서는 일반상대성 이론의 설명과 함께 태양의 플라즈마 대기의 명칭 또한 <em>코로나</em>임에 착안하여, 코로나라는 질병이 여행자의 주변을 거대한 질량으로 둘러싸고 시간이 다른 흐름으로 왜곡된다는 설정을 제시했습니다. 두번째 인포그래픽 파트<strong>5</strong>에서는 이 시간축에서 새롭게 등장한 개념<strong class=long>zoom, 손소독제, 발열 체크 등</strong>, 발생하는 이상 현상<strong class=long>자가격리, 고열, 인원 제한 등</strong>, 이 시간축을 경험한 사람들을 인터뷰한 내용을 담았습니다.마지막으로 어느새 이 기이한 시간대에 적응해 막연한 구조를 기다린다는 열린 결말의 아웃트로<strong>6</strong>로 마무리하였습니다.</p></div>",
+
+          "<div class='eng'><p>The introduction<strong>4</strong> draws a parallel from the fact that the Sun’s outermost atmospheric layer called corona share the same name, symbolizing the pandemic as a massive body distorting time’s flow. The second infographic section<strong>5</strong> presents newly emerged concepts <strong class=long>Zoom, hand sanitizer, temperature checks, etc.</strong>, resulting anomalies <strong class=long>self-quarantine, fever, capacity restrictions, etc.</strong>, and interviews with people who experienced this altered timeline. The outro<strong>6</strong> closes on an open ending, where people have adapted to this strange temporal state and wait vaguely for rescue. </p></div>",
+
+          "<div class='kor'><p>휘어짐에서 이어진 기하학적 그래픽 요소, 설명서를 연상하는 객관적 텍스트와 그래프, 그리고 전체적으로 거북하고 기괴한 무드를 사용해 컨셉을 강화했습니다. <em>시간여행</em>이라는 컨셉에 맞추어 우주와 기계장치를 연상시키는 모티브를 그래픽 전반에 활용했습니다.</p></div>",
+
+          "<div class='eng'><p>The visuals combine geometric forms evoking distortion, manual-like objective texts and graphs, and an unsettling, eerie mood to reinforce the concept. I used motifs reminiscent of space and mechanical devices throughout the graphics to align with the concept of <em>time travel.</em></p></div>",
+          "<div class='kor'><p>또한, 여행 중 사고가 나 <em>이상 시간축 2020</em>에 진입한다는 설정으로, 고전적인 비행기 방송 형식을 차용한 모션그래픽<strong>7</strong>을 제작하여 책의 기묘하고 불안한 분위기를 확장했습니다.</p></div>",
+
+          "<div class='eng'><p>A motion graphic<strong>7</strong>, inspired by classic in-flight announcements, was also created to extend the strange and disquieting feeling of the book, depicting the story of entering the anomalous 2020 timeline after a travel accident.</p></div>",
+          "<br><div class='kor'><p><strong class=long>A5, 48p(Book). 1440x1440px, 01:41 (Motion Graphic)</strong></p></div>"
+        
+        
+        ],
         "info": [
           {
-            "output": "Logo Design. Brand Manual. Applications. Motion Graphics",
+            "output": "Graphic Book. Motion Graphics",
             "tool": "Illustrator. Photoshop. AfterEffects.",
             "time": "3 months<br>2021.09 - 2021.12"
           }
